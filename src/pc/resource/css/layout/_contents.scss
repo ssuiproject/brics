@@ -1,0 +1,25 @@
+/*CONTENTS*/  
+#contents {
+    max-width: 1600px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+body.main #contents {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    body.main #contents {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 0;
+    }
+    #contents {
+        max-width: 1580px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}

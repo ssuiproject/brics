@@ -1,0 +1,28 @@
+/*SKIP NAVI*/  
+#skipNavi li {
+    font-size: 0;
+    line-height: 0;
+    z-index: 99999999999;
+    a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: -100px;
+        text-align: center;
+        z-index: 200;
+        background: #413022;
+        border: 0 none;
+        z-index: 99999999999;
+        &:active, &:focus {
+        top: 0;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.5;
+        border-bottom: 1px solid #fff;
+        z-index: 99999999999;
+        }
+    }
+}

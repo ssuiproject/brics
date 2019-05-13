@@ -1,0 +1,2002 @@
+/*서브페이지 전부 이파일에*/
+
+/*서브페이지 공통*/
+
+#subContents {
+	max-width: 1200px;
+	min-height: 570px;
+	margin: 0 auto 80px;
+	box-sizing: border-box;
+  }
+  
+  /*SUB LNB*/
+  
+  .sub__wrap {
+	overflow: hidden;
+	margin-top: 60px;
+  }
+  
+  .sub-lnb {
+	float: left;
+	width: 296px;
+	> .tit {
+	  margin-bottom: 30px;
+	  font-size: 26px;
+	  line-height: 32px;
+	  font-weight: 700;
+	  font-family: 'Spoqa Han Sans';
+	  color: rgb(51, 51, 51);
+	}
+	li {
+	  + li {
+		margin-top: 8px;
+	  }
+	  > a {
+		font-size: 14px;
+		color: rgb(0, 0, 0);
+		&.on, &:hover {
+		  font-weight: 700;
+		  border-bottom: 1px solid rgb(130, 130, 130);
+		}
+	  }
+	}
+  }
+  
+  /*SUB CON*/
+  
+  .sub-con {
+	float: right;
+	width: 884px;
+  }
+  
+  /*input , select  style*/
+  
+  input {
+	&[type='text'].input__style, &[type='tel'].input__style, &[type='password'].input__style {
+	  height: 30px;
+	  padding: 0 0 0 10px;
+	  vertical-align: middle;
+	  border: 1px solid rgb(204, 204, 204);
+	  background: rgb(238, 238, 238);
+	  font-size: 14px;
+	  color: rgb(51, 51, 51);
+	  box-sizing: border-box;
+	}
+  }
+  
+  .select__style {
+	height: 30px;
+	padding: 0 0 0 10px;
+	vertical-align: middle;
+	border: 1px solid rgb(204, 204, 204);
+	background: rgb(238, 238, 238);
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	box-sizing: border-box;
+  }
+  
+  input {
+	&[type='text'].input__style2, &[type='tel'].input__style2, &[type='password'].input__style2 {
+	  height: 30px;
+	  padding-left: 10px;
+	  border: 1px solid rgb(204, 204, 204);
+	  font-size: 14px;
+	  vertical-align: middle;
+	  box-sizing: border-box;
+	}
+  }
+  
+  .select__style2 {
+	height: 30px;
+	padding-left: 10px;
+	border: 1px solid rgb(204, 204, 204);
+	font-size: 14px;
+	vertical-align: middle;
+	box-sizing: border-box;
+  }
+  
+  .select__style {
+	background: rgb(238, 238, 238) url(http://brics.styleship.com/pc/resource/images/sub/bg_select.gif) right 0 no-repeat;
+  }
+  
+  .select__style2 {
+	background: rgb(255, 255, 255) url(http://brics.styleship.com/pc/resource/images/sub/bg_select02.gif) right 0 no-repeat;
+  }
+  
+  [class^="select__style"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&::-ms-expand {
+	  display: none;
+	}
+  }
+  
+  .ie9 {
+	.select__style {
+	  background: rgb(238, 238, 238);
+	}
+	.select__style2 {
+	  background: rgb(255, 255, 255);
+	}
+  }
+  
+  /*select 2개 이상 일때*/
+  
+  .select__box.col2 select + select {
+	margin-left: 11px;
+  }
+  
+  /*input-size*/
+  
+  .input__size {
+	width: 255px;
+  }
+  
+  .input__size2 {
+	width: 240px;
+  }
+  
+  .input__size3 {
+	width: 180px;
+  }
+  
+  .input__size4 {
+	width: 300px;
+  }
+  
+  .input__size5 {
+	width: 430px;
+  }
+  
+  .input__size6 {
+	width: 470px;
+  }
+  
+  .input__size7 {
+	width: 60px;
+  }
+  
+  .input__size8 {
+	width: 355px;
+  }
+  
+  /*select-size*/
+  
+  .select__size {
+	width: 180px;
+  }
+  
+  .select__size2 {
+	width: 80px;
+  }
+  
+  .select__size3 {
+	width: 160px;
+  }
+  
+  .select__size4 {
+	width: 300px;
+  }
+  
+  /*서브페이지 상단 공통 텍스트*/
+  
+  .sub__txt {
+	margin: 35px 0;
+	text-align: center;
+	p {
+	  line-height: 32px;
+	  font-weight: 400;
+	  font-size: 20px;
+	  color: rgb(102, 102, 102);
+	}
+  }
+  
+  /*TEXT*/
+  
+  .txt--center {
+	text-align: center;
+	font-size: 14px;
+	&.gray {
+	  color: rgb(119, 119, 119);
+	}
+  }
+  
+  .ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  
+  /*WIDTH*/
+  
+  .w-50 {
+	width: 50%;
+	box-sizing: border-box;
+  }
+  
+  /*서브페이지 버튼 공통*/
+  
+  .btn-area {
+	text-align: center;
+	font-size: 0;
+	a {
+	  display: inline-block;
+	  width: 200px;
+	  height: 50px;
+	  line-height: 50px;
+	  text-align: center;
+	  font-size: 16px;
+	  box-sizing: border-box;
+	  vertical-align: top;
+	  + a {
+		margin-left: 10px;
+	  }
+	}
+  }
+  
+  /* TABLE */
+  
+  table td.left {
+	text-align: left;
+  }
+  
+  .list__table {
+	width: 100%;
+	font-size: 14px;
+	thead {
+	  border-top: 2px solid rgb(34, 34, 34);
+	  background: rgb(250, 250, 250);
+	}
+	tbody {
+	  border-top: 1px solid rgb(222, 222, 222);
+	  border-bottom: 1px solid rgb(222, 222, 222);
+	}
+	tr + tr {
+	  border-top: 1px solid rgb(222, 222, 222);
+	}
+	&.dash {
+	  tbody {
+		border-top: 1px dashed rgb(222, 222, 222);
+		border-bottom: 1px dashed rgb(222, 222, 222);
+	  }
+	  tr + tr {
+		border-top: 1px dashed rgb(222, 222, 222);
+	  }
+	}
+	th {
+	  padding: 17px 0;
+	  font-weight: 400;
+	  text-align: center;
+	}
+	td {
+	  text-align: center;
+	  padding: 20px 0;
+	}
+	.row tr {
+	  &:not(.add-info) {
+		border-top: 0;
+	  }
+	  + tr .date {
+		display: none;
+	  }
+	}
+	.view {
+	  display: inline-block;
+	  width: 95px;
+	  height: 30px;
+	  line-height: 30px;
+	  text-align: center;
+	  box-sizing: border-box;
+	}
+	.check-box label {
+	  font-size: 0;
+	}
+	.date {
+	  padding-left: 30px;
+	  line-height: 20px;
+	  font-size: 14px;
+	  text-align: left;
+	  .view {
+		margin-top: 15px;
+	  }
+	}
+	.pd-name {
+	  padding-left: 20px;
+	  text-align: left;
+	  .photo {
+		display: inline-block;
+		width: 125px;
+		margin-right: 10px;
+	  }
+	  .txt {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 22px;
+		font-size: 13px;
+		dd {
+		  margin-top: 5px;
+		  color: rgb(153, 153, 153);
+		}
+	  }
+	  .photo img {
+		width: 100%;
+	  }
+	}
+	.promotion {
+	  margin-top: 10px;
+	  line-height: 20px;
+	  font-size: 11px;
+	  color: rgb(153, 153, 153);
+	}
+	.sale {
+	  text-decoration: line-through;
+	  color: rgb(153, 153, 153);
+	}
+	.mileage {
+	  text-align: right;
+	  input {
+		width: 110px;
+		height: 30px;
+		padding-right: 10px;
+		text-align: right;
+		border: 1px solid rgb(201, 201, 201);
+		background: rgb(255, 255, 255);
+		color: rgb(34, 34, 34);
+		box-sizing: border-box;
+	  }
+	  .info {
+		margin-left: 10px;
+		font-size: 12px;
+		color: rgb(153, 153, 153);
+	  }
+	  .check-box label {
+		margin-left: 30px;
+		font-size: 14px;
+		color: rgb(51, 51, 51);
+	  }
+	}
+	.add-info {
+	  td {
+		padding: 20px 30px;
+		font-size: 0;
+	  }
+	  .deliy, .total {
+		display: inline-block;
+		font-size: 14px;
+	  }
+	  .deliy {
+		text-align: left;
+	  }
+	  .total {
+		text-align: right;
+	  }
+	}
+	.deliy .view {
+	  width: 85px;
+	  margin-left: 10px;
+	}
+	.total {
+	  dt {
+		margin-right: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: 800;
+	  }
+	  dd {
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: 800;
+	  }
+	  strong {
+		font-size: 24px;
+	  }
+	}
+	.order-btn {
+	  > a {
+		display: inline-block;
+		padding: 45px 5px 0;
+		background-position: center top;
+		background-repeat: no-repeat;
+	  }
+	  .cart {
+		background-image: url(http://brics.styleship.com/pc/resource/images/btn/btn_cart.png);
+	  }
+	  .delete {
+		background-image: url(http://brics.styleship.com/pc/resource/images/btn/btn_cart_close.png);
+		color: rgb(113, 113, 113);
+	  }
+	  .now {
+		background-image: url(http://brics.styleship.com/pc/resource/images/btn/btn_noworder.png);
+	  }
+	}
+	.status-btn a {
+	  display: inline-block;
+	  width: 100px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-top: 5px;
+	  font-size: 13px;
+	  box-sizing: border-box;
+	}
+	.option select {
+	  width: 100px;
+	  display: block;
+	  margin: 10px auto 0;
+	  font-size: 12px;
+	}
+	.a {
+	  display: none;
+	  p {
+		text-align: left;
+	  }
+	  .txt {
+		padding: 10px 100px 10px 32px;
+		line-height: 27px;
+	  }
+	  .con {
+		padding: 0 140px;
+		text-align: left;
+		.name {
+		  padding: 5px 0 25px;
+		  border-bottom: 1px solid rgb(232, 232, 232);
+		}
+		dt, dd {
+		  padding: 25px 0 25px 18px;
+		  border-bottom: 1px solid rgb(232, 232, 232);
+		}
+		i {
+		  margin-left: -18px;
+		  padding-right: 5px;
+		  font-style: normal;
+		}
+	  }
+	  .btn-area {
+		margin: 30px 0 10px;
+		a {
+		  width: 180px;
+		  height: 45px;
+		  line-height: 45px;
+		}
+	  }
+	}
+	.file {
+	  display: inline-block;
+	  width: 15px;
+	  height: 15px;
+	}
+	.reason__input {
+	  border: 0;
+	  select {
+		width: 230px;
+	  }
+	  input {
+		width: 950px;
+		margin-left: 16px;
+	  }
+	}
+  }
+  
+  .member__table {
+	width: 100%;
+	th {
+	  width: 113px;
+	  padding: 20px 0;
+	  text-align: left;
+	  font-weight: 400;
+	  font-size: 14px;
+	}
+	td {
+	  padding: 15px 0;
+	  font-size: 14px;
+	}
+	.caution {
+	  margin-top: 10px;
+	  font-size: 13px;
+	  color: rgb(153, 153, 135);
+	}
+  }
+  
+  .pw-area .caution {
+	margin-left: 20px;
+	font-size: 14px;
+  }
+  
+  .member__table {
+	.vt {
+	  vertical-align: top;
+	}
+	.char {
+	  margin: 0 5px;
+	}
+	.btn-id {
+	  display: inline-block;
+	  width: 120px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: middle;
+	  border: 1px solid rgb(34, 34, 34);
+	  color: rgb(34, 34, 34);
+	  box-sizing: border-box;
+	}
+  }
+  
+  /*회원정보 수정 테이블*/
+  
+  .modify-area {
+	.join__box h3 {
+	  border-width: 1px;
+	}
+	.member__table {
+	  th {
+		padding: 16px 0;
+	  }
+	  td {
+		padding: 12px 0;
+	  }
+	}
+  }
+  
+  .etc__table {
+	width: 100%;
+	margin-bottom: 35px;
+	th {
+	  width: 100px;
+	  padding: 10px 0;
+	  font-size: 15px;
+	  font-weight: normal;
+	  background: rgb(153, 153, 153);
+	  color: rgb(255, 255, 255);
+	}
+	td {
+	  padding: 10px 0;
+	  line-height: 24px;
+	  text-align: center;
+	  border-top: 2px solid rgb(248, 248, 248);
+	  font-size: 15px;
+	  background: rgb(255, 255, 255);
+	}
+	tr + tr th {
+	  border-top: 2px solid rgb(255, 255, 255);
+	}
+	td {
+	  + td {
+		border-left: 2px solid rgb(248, 248, 248);
+	  }
+	  &[class*=bf-]:before {
+		content: '';
+		display: block;
+		width: 80px;
+		height: 80px;
+		margin: 0 auto 10px;
+	  }
+	}
+	.bf-t, .bf-g, .bf-s, .bf-f {
+	  background: url(http://brics.styleship.com/pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;
+	}
+  }
+  
+  /*INPUT TABLE*/
+  
+  .list__input {
+	width: 100%;
+	border-top: 1px solid rgb(51, 51, 51);
+	border-bottom: 1px solid rgb(238, 238, 238);
+	tr + tr {
+	  border-top: 1px solid rgb(238, 238, 238);
+	}
+	th {
+	  width: 95px;
+	  padding: 35px 0 30px;
+	  text-align: left;
+	  vertical-align: top;
+	  font-size: 14px;
+	  font-weight: normal;
+	}
+	td {
+	  padding: 30px 0;
+	  font-size: 14px;
+	}
+	.phone .char {
+	  display: inline-block;
+	  width: 20px;
+	  text-align: center;
+	}
+	.address {
+	  button {
+		padding: 0 10px;
+		height: 30px;
+		line-height: 30px;
+		margin-left: 6px;
+		vertical-align: middle;
+		font-size: 14px;
+		box-sizing: border-box;
+	  }
+	  .cell {
+		margin-top: 10px;
+		input {
+		  outline: none;
+		}
+		> span {
+		  display: inline-block;
+		  width: 60px;
+		}
+	  }
+	}
+	.file input {
+	  width: 370px;
+	  margin-right: 20px;
+	}
+	textarea {
+	  width: 100%;
+	  height: 210px;
+	  padding: 10px;
+	  line-height: 24px;
+	  box-sizing: border-box;
+	  border: 1px solid rgb(204, 204, 204);
+	  background: rgb(238, 238, 238);
+	  resize: none;
+	  font-size: 14px;
+	}
+	.check-box {
+	  margin-left: 20px;
+	}
+	.caution {
+	  margin-left: 20px;
+	  color: rgb(153, 153, 153);
+	}
+  }
+  
+  /*RESULT TABLE(결제완료)*/
+  
+  .list__result {
+	width: 100%;
+	font-size: 14px;
+	&.line tbody {
+	  border-top: 1px solid rgb(34, 34, 34);
+	}
+	tbody {
+	  padding: 15px 0;
+	  display: block;
+	  border-bottom: 1px solid rgb(238, 238, 238);
+	}
+	th {
+	  width: 150px;
+	  padding: 12px 0 12px 20px;
+	  text-align: left;
+	  font-weight: normal;
+	  box-sizing: border-box;
+	}
+	td {
+	  padding: 12px 0;
+	}
+	.underline {
+	  text-decoration: underline;
+	}
+	.btn {
+	  display: inline-block;
+	  padding: 0 20px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-left: 50px;
+	  text-align: center;
+	  vertical-align: middle;
+	  font-size: 12px;
+	}
+	.big {
+	  font-size: 32px;
+	}
+  }
+  
+  /*MEMBER*/
+  /*로그인*/
+  
+  .login-area {
+	overflow: hidden;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+	.fl {
+	  padding-right: 40px;
+	}
+	.fr {
+	  position: relative;
+	  padding-left: 40px;
+	  &:before {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 1px;
+		height: 128px;
+		border-left: 1px solid rgb(238, 238, 238);
+	  }
+	}
+	h3 {
+	  margin-bottom: 10px;
+	  font-size: 14px;
+	  font-weight: 400;
+	  color: rgb(51, 51, 51);
+	}
+  }
+  
+  .login__box {
+	overflow: hidden;
+	padding-top: 25px;
+	border-top: 1px solid rgb(238, 238, 238);
+  }
+  
+  .field label {
+	display: inline-block;
+	width: 70px;
+	font-size: 14px;
+  }
+  
+  .login__box {
+	> .field {
+	  float: left;
+	  width: 350px;
+	  > div + div {
+		margin-top: 10px;
+	  }
+	}
+	.btn {
+	  float: right;
+	  width: 200px;
+	  height: 70px;
+	  line-height: 70px;
+	  font-size: 18px;
+	}
+  }
+  
+  .login-area {
+	.etc {
+	  position: relative;
+	  overflow: hidden;
+	  padding: 25px 0 0 74px;
+	}
+	.member-save {
+	  float: left;
+	}
+	.member-link {
+	  float: right;
+	  a + a {
+		position: relative;
+		margin-left: 5px;
+		&:before {
+		  content: '';
+		  display: inline-block;
+		  width: 1px;
+		  height: 9px;
+		  margin-right: 10px;
+		  background: rgb(93, 93, 93);
+		}
+	  }
+	}
+  }
+  
+  /*MEMBER*/
+  /*회원가입 이용약관*/
+  
+  .agree-area {
+	padding: 40px 0;
+	border-top: 1px solid rgb(238, 238, 238);
+	.txt {
+	  margin-bottom: 50px;
+	  text-align: center;
+	  font-size: 20px;
+	  line-height: 32px;
+	}
+	.agree-info {
+	  overflow: hidden;
+	  margin-bottom: 50px;
+	}
+	.scroll__box {
+	  width: 580px;
+	  height: 260px;
+	  overflow-y: scroll;
+	  padding: 30px 20px;
+	  margin-bottom: 12px;
+	  line-height: 20px;
+	  font-size: 12px;
+	  font-family: 'dotum';
+	  border: 1px solid rgb(238, 238, 238);
+	  background: rgb(250, 250, 250);
+	  box-sizing: border-box;
+	  color: rgb(51, 51, 51);
+	}
+	.etc__list {
+	  overflow: hidden;
+	  border: 1px solid rgb(238, 238, 238);
+	  li {
+		float: left;
+		width: 33.33%;
+		text-align: center;
+		box-sizing: border-box;
+		+ li {
+		  border-left: 1px solid rgb(238, 238, 238);
+		}
+	  }
+	  dt {
+		padding: 20px 0;
+		border-bottom: 1px solid rgb(238, 238, 238);
+		background: rgb(250, 250, 250);
+		font-weight: normal;
+		font-size: 18px;
+	  }
+	  dd {
+		padding: 24px 0;
+		text-align: center;
+		line-height: 24px;
+		font-size: 14px;
+		background: rgb(255, 255, 255);
+	  }
+	}
+  }
+  
+  .agree-ad {
+	margin-bottom: 40px;
+	> p {
+	  padding: 16px 0 26px;
+	  line-height: 24px;
+	  font-size: 14px;
+	  color: rgb(153, 153, 153);
+	}
+  }
+  
+  .agree-all {
+	padding: 50px 0 30px;
+	border-top: 1px solid rgb(238, 238, 238);
+	.check-box {
+	  display: block;
+	  width: 100%;
+	  margin-bottom: 35px;
+	  padding: 14px 0 15px;
+	  text-align: center;
+	  background: rgb(238, 238, 238);
+	}
+  }
+  
+  /*회원가입*/
+  
+  .join__box {
+	overflow: hidden;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+	h3 {
+	  padding-bottom: 15px;
+	  margin-bottom: 15px;
+	  border-bottom: 2px solid rgb(0, 0, 0);
+	  font-size: 14px;
+	  font-weight: 400;
+	}
+	.fl {
+	  padding-right: 50px;
+	}
+	.fr {
+	  padding-left: 50px;
+	}
+  }
+  
+  .agree-sms {
+	padding-top: 30px;
+	border-top: 1px solid rgb(238, 238, 238);
+	li + li {
+	  margin-top: 20px;
+	  font-size: 14px;
+	}
+  }
+  
+  /*회원가입 완료*/
+  
+  .join-complete {
+	padding: 125px 50px 0;
+	text-align: center;
+	h2 {
+	  margin-bottom: 20px;
+	  font-weight: 400;
+	  font-size: 20px;
+	}
+	p {
+	  margin-bottom: 35px;
+	  line-height: 28px;
+	  font-size: 16px;
+	}
+  }
+  
+  /*아이디/비번 찾기*/
+  
+  .mb-search-area {
+	overflow: hidden;
+	.fl {
+	  padding-right: 45px;
+	}
+	.fr {
+	  position: relative;
+	  padding-left: 45px;
+	  &:before {
+		content: '';
+		position: absolute;
+		top: 7px;
+		left: 0;
+		width: 1px;
+		height: 106px;
+		border-left: 1px solid rgb(239, 239, 239);
+	  }
+	}
+	p {
+	  margin-bottom: 15px;
+	  line-height: 36px;
+	  font-size: 14px;
+	  color: rgb(51, 51, 51);
+	}
+	.input-box {
+	  label {
+		display: inline-block;
+		width: 55px;
+		font-size: 14px;
+	  }
+	  input {
+		width: 250px;
+		margin-right: 5px;
+	  }
+	}
+	.btn {
+	  display: inline-block;
+	  width: 96px;
+	  height: 30px;
+	  line-height: 30px;
+	  text-align: center;
+	  vertical-align: middle;
+	  font-size: 13px;
+	}
+  }
+  
+  /*비밀번호 변경*/
+  
+  .pw-area {
+	.inner {
+	  padding: 15px 0;
+	  margin-bottom: 40px;
+	  border-top: 1px solid rgb(238, 238, 238);
+	  border-bottom: 1px solid rgb(238, 238, 238);
+	}
+	.info {
+	  margin-left: 20px;
+	  font-size: 14px;
+	  color: rgb(119, 119, 119);
+	}
+  }
+  
+  /*회원탈퇴*/
+  
+  .mb-out__box {
+	overflow: hidden;
+	padding: 20px 0;
+	margin-bottom: 40px;
+	border-top: 1px solid rgb(238, 238, 238);
+	border-bottom: 1px solid rgb(238, 238, 238);
+	.fr {
+	  position: relative;
+	  padding-left: 50px;
+	  &:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 15px;
+		width: 1px;
+		height: 122px;
+		background: rgb(238, 238, 238);
+	  }
+	}
+	.member__table {
+	  margin-top: -15px;
+	}
+	.txt {
+	  margin-bottom: 20px;
+	  line-height: 26px;
+	  font-size: 14px;
+	}
+	.radio-area {
+	  p {
+		margin-bottom: 10px;
+		font-size: 14px;
+	  }
+	  font-size: 13px;
+	}
+  }
+  
+  /*CUSTOMER*/
+  /*공지사항*/
+  
+  .notice-area {
+	.search {
+	  position: relative;
+	  margin-top: -35px;
+	  padding: 20px 0 30px;
+	  text-align: right;
+	  input {
+		width: 235px;
+		height: 40px;
+		padding-left: 10px;
+		line-height: 38px;
+		vertical-align: middle;
+		background: none;
+		font-size: 14px;
+		color: rgb(51, 51, 51);
+		box-sizing: border-box;
+	  }
+	  .btn__search {
+		position: absolute;
+		top: 28px;
+		right: 10px;
+		background-size: 15px;
+	  }
+	}
+	.list__table {
+	  margin-bottom: 40px;
+	  thead {
+		border: 0;
+		background: rgb(232, 232, 232);
+	  }
+	  .tit {
+		display: block;
+		width: 550px;
+	  }
+	}
+	.back-list {
+	  margin-top: 20px;
+	  text-align: right;
+	  a {
+		display: inline-block;
+		width: 90px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		font-size: 17px;
+	  }
+	}
+  }
+  
+  .notice__view {
+	border-bottom: 1px solid rgb(232, 232, 232);
+	.tit {
+	  margin-top: -35px;
+	  padding: 35px 0;
+	  line-height: 28px;
+	  border-bottom: 1px solid rgb(232, 232, 232);
+	  font-size: 22px;
+	  font-weight: 700;
+	}
+	.date {
+	  padding: 12px 0;
+	  text-align: right;
+	  font-size: 14px;
+	}
+	.info {
+	  padding: 0 0 40px;
+	  line-height: 30px;
+	  border-bottom: 1px solid rgb(232, 232, 232);
+	  font-size: 15px;
+	  img {
+		width: 100%;
+	  }
+	}
+  }
+  
+  .page__list li {
+	padding: 20px 0;
+	font-size: 15px;
+	> a {
+	  display: block;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	}
+	+ li {
+	  border-top: 1px solid rgb(232, 232, 232);
+	}
+	strong:before {
+	  content: '';
+	  display: inline-block;
+	  width: 1px;
+	  height: 10px;
+	  margin: 0 15px 0 18px;
+	  background: rgb(204, 204, 204);
+	}
+  }
+  
+  /*FAQ*/
+  
+  .faq__tab {
+	overflow: hidden;
+	margin: -37px 0 30px;
+	border: 1px solid rgb(238, 238, 238);
+	background: rgb(255, 255, 255);
+	li {
+	  float: left;
+	  width: 16.667%;
+	  height: 120px;
+	  box-sizing: border-box;
+	  + li {
+		border-left: 1px solid rgb(238, 238, 238);
+	  }
+	  > a {
+		display: block;
+		height: 100%;
+		text-align: center;
+		font-size: 16px;
+		&:before {
+		  content: '';
+		  display: block;
+		  width: 85px;
+		  height: 85px;
+		  margin: 0 auto;
+		  background: url(http://brics.styleship.com/pc/resource/images/sub/ico_faq.png) -3px -75px no-repeat;
+		}
+		&:hover, &.on {
+		  background: rgb(34, 34, 34);
+		  color: rgb(255, 255, 255);
+		}
+		&.tab-order:before {
+		  background-position-x: -148px;
+		}
+		&.tab-pay:before {
+		  background-position-x: -297px;
+		}
+		&.tab-deliy:before {
+		  background-position-x: -447px;
+		}
+		&.tab-as:before {
+		  background-position-x: -589px;
+		}
+		&.tab-etc:before {
+		  background-position-x: -740px;
+		}
+		&:hover:before, &.on:before {
+		  background-position-y: 5px;
+		}
+	  }
+	}
+  }
+  
+  .faq-area .list__table {
+	margin-bottom: 40px;
+  }
+  
+  /* INSIDE */
+  
+  .info--dot {
+	+ .info--dot {
+	  margin-top: 35px;
+	}
+	li {
+	  padding-left: 15px;
+	  line-height: 27px;
+	  font-size: 15px;
+	  &:before {
+		content: '';
+		display: inline-block;
+		position: relative;
+		top: -5px;
+		width: 3px;
+		height: 3px;
+		margin: 0 10px 0 -15px;
+		background: rgb(163, 163, 163);
+	  }
+	  > dl {
+		display: inline-block;
+		vertical-align: top;
+		dt, dd {
+		  display: inline-block;
+		  vertical-align: top;
+		}
+	  }
+	}
+  }
+  
+  /*배송안내*/
+  
+  .delivery-area .etc__table td, .cancelinfo-area .etc__table td {
+	padding: 20px 10px 20px 30px;
+	word-break: keep-all;
+  }
+  
+  /*MYPAGE*/
+  /*멤버쉽박스*/
+  
+  .membership-box {
+	overflow: hidden;
+	margin-top: 40px;
+	> div {
+	  height: 260px;
+	}
+  }
+  
+  .mbr-grade {
+	position: relative;
+	height: 100%;
+	padding: 40px 40px 40px 30px;
+	box-sizing: border-box;
+	.status {
+	  float: right;
+	  margin-top: -10px;
+	  font-size: 30px;
+	  font-weight: 800;
+	  color: rgb(255, 255, 255);
+	  &:before {
+		margin-right: 10px;
+	  }
+	}
+	.user p {
+	  padding: 15px 0;
+	  font-size: 20px;
+	  font-family: 'Spoqa Han Sans';
+	  color: rgb(255, 255, 255);
+	}
+  }
+  
+  .membership-box {
+	.view {
+	  position: absolute;
+	  bottom: 40px;
+	  width: 104px;
+	  height: 35px;
+	  line-height: 35px;
+	  text-align: center;
+	  border: 1px solid rgb(255, 255, 255);
+	  font-size: 14px;
+	  box-sizing: border-box;
+	  color: rgb(255, 255, 255);
+	}
+	.detail {
+	  position: relative;
+	  float: left;
+	  width: 50%;
+	  height: 100%;
+	  padding: 35px 40px 40px;
+	  background: rgb(250, 250, 250);
+	  font-size: 16px;
+	  box-sizing: border-box;
+	  + .detail:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		width: 1px;
+		height: 180px;
+		background: rgb(238, 238, 238);
+		box-sizing: border-box;
+	  }
+	  dt {
+		font-size: 20px;
+	  }
+	  dd {
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-family: 'Spoqa Han Sans';
+		strong {
+		  font-size: 40px;
+		  font-weight: 400;
+		}
+	  }
+	  .view {
+		border-color: rgb(34, 34, 34);
+		color: rgb(34, 34, 34);
+	  }
+	}
+  }
+  
+  .ico-grade {
+	display: block;
+	width: 81px;
+	height: 81px;
+	text-indent: -9999px;
+	background-position: center center;
+	background-repeat: no-repeat;
+  }
+  
+  /*멤버쉽 등급별 스타일*/
+  
+  .mbr-grade {
+	&.g {
+	  background: rgb(0, 172, 81);
+	  .ico-grade {
+		background-image: url(http://brics.styleship.com/pc/resource/images/sub/ico_grade_g.png);
+	  }
+	  .status:before {
+		content: 'Green';
+	  }
+	}
+	&.r {
+	  background: rgb(237, 75, 70);
+	  .ico-grade {
+		background-image: url(http://brics.styleship.com/pc/resource/images/sub/ico_grade_r.png);
+	  }
+	  .status:before {
+		content: 'Red';
+	  }
+	}
+	&.w {
+	  background: rgb(237, 237, 237);
+	  .ico-grade {
+		background-image: url(http://brics.styleship.com/pc/resource/images/sub/ico_grade_w.png);
+	  }
+	  .user p {
+		color: rgb(34, 34, 34);
+	  }
+	  .status {
+		color: rgb(34, 34, 34);
+		&:before {
+		  content: 'White';
+		}
+	  }
+	  .view {
+		border-color: rgb(34, 34, 34);
+		color: rgb(34, 34, 34);
+	  }
+	}
+  }
+  
+  /*TAB*/
+  
+  .mypage-lnb {
+	overflow: hidden;
+	margin-bottom: 60px;
+	border-right: 1px solid rgb(233, 232, 232);
+	border-bottom: 1px solid rgb(233, 232, 232);
+	li {
+	  float: left;
+	  width: 33.33%;
+	  height: 55px;
+	  line-height: 55px;
+	  text-align: center;
+	  border-top: 1px solid rgb(233, 232, 232);
+	  border-left: 1px solid rgb(233, 232, 232);
+	  box-sizing: border-box;
+	  a {
+		display: block;
+		font-size: 16px;
+		color: rgb(113, 113, 113);
+		transition: .3s ease;
+		&:hover, &.on {
+		  background: rgb(34, 34, 34);
+		  color: rgb(255, 255, 255);
+		}
+	  }
+	}
+  }
+  
+  .my__con {
+	position: relative;
+	+ .my__con {
+	  margin-top: 60px;
+	}
+	.more {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  padding-right: 10px;
+	  font-size: 14px;
+	  background: url(http://brics.styleship.com/pc/resource/images/common/arr_right_bk.png) right center no-repeat;
+	  background-size: 5px;
+	}
+	.txt--center {
+	  margin-bottom: 40px;
+	}
+	.btn-area {
+	  margin-top: 40px;
+	}
+	.paging {
+	  margin: 40px 0 60px;
+	}
+  }
+  
+  /*마이페이지 상단 버튼*/
+  
+  .select-btn--top {
+	overflow: hidden;
+	margin-bottom: 20px;
+	.check-box {
+	  height: 30px;
+	  line-height: 30px;
+	}
+	a {
+	  display: inline-block;
+	  min-width: 93px;
+	  height: 30px;
+	  line-height: 30px;
+	  padding: 0 12px;
+	  text-align: center;
+	  font-size: 12px;
+	  box-sizing: border-box;
+	  + a {
+		margin-left: 6px;
+	  }
+	}
+  }
+  
+  /*주문수량*/
+  
+  .quantity__box {
+	font-size: 0;
+	> button {
+	  width: 50px;
+	  height: 50px;
+	  text-indent: -9999px;
+	  vertical-align: middle;
+	  font-size: 14px;
+	}
+	input {
+	  width: 61px;
+	  height: 50px;
+	  text-align: center;
+	  border-top: 1px solid rgb(204, 204, 204);
+	  border-bottom: 1px solid rgb(204, 204, 204);
+	  vertical-align: middle;
+	  font-size: 14px;
+	  font-family: 'Spoqa Han Sans';
+	  box-sizing: border-box;
+	  outline: 0;
+	}
+	.btn-minus {
+	  background: url(http://brics.styleship.com/pc/resource/images/btn/btn_minus.png) 0 0 no-repeat;
+	}
+	.btn-plus {
+	  background: url(http://brics.styleship.com/pc/resource/images/btn/btn_plus.png) 0 0 no-repeat;
+	}
+	.btn-change {
+	  background: rgb(250, 250, 250);
+	  border: 1px solid rgb(204, 204, 204);
+	  border-left: 0;
+	  text-indent: 0;
+	  color: rgb(113, 113, 113);
+	  box-sizing: border-box;
+	}
+  }
+  
+  /*QNA*/
+  
+  .qna-area .tit {
+	display: inline-block;
+	max-width: 80%;
+	padding-right: 10px;
+	box-sizing: border-box;
+	vertical-align: middle;
+  }
+  
+  /*주문/배송 조회*/
+  
+  .sub-step {
+	margin-bottom: 40px;
+	ul {
+	  text-align: center;
+	}
+	li {
+	  position: relative;
+	  display: inline-block;
+	  width: 150px;
+	  font-size: 14px;
+	  + li {
+		padding-left: 50px;
+	  }
+	  > p {
+		margin-top: 10px;
+		span {
+		  margin-left: 3px;
+		  border-bottom: 1px solid rgb(169, 169, 169);
+		}
+	  }
+	}
+	&.bg ul {
+	  padding: 30px 0;
+	  background: rgb(248, 248, 248);
+	}
+	li {
+	  &:after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 50px;
+		height: 1px;
+		background: rgb(204, 204, 204);
+	  }
+	  &:first-child:after {
+		display: none;
+	  }
+	}
+  }
+  
+  .order-srh__box {
+	margin-bottom: 40px;
+	.data-area {
+	  width: 1040px;
+	  float: left;
+	}
+	.tit {
+	  float: left;
+	  width: 80px;
+	  height: 40px;
+	  line-height: 40px;
+	  font-size: 14px;
+	}
+	.date, .srh {
+	  overflow: hidden;
+	}
+	.date-select {
+	  float: right;
+	  width: 960px;
+	}
+  }
+  
+  .date-select {
+	ul {
+	  float: left;
+	  width: 625px;
+	  border: 1px solid rgb(204, 204, 204);
+	  font-size: 0;
+	  box-sizing: border-box;
+	  li {
+		display: inline-block;
+		width: 20%;
+		text-align: center;
+		box-sizing: border-box;
+		> a {
+		  display: block;
+		  height: 40px;
+		  line-height: 40px;
+		  font-size: 14px;
+		  &.on {
+			background: rgb(250, 250, 250);
+		  }
+		}
+		+ li {
+		  border-left: 1px solid rgb(204, 204, 204);
+		}
+	  }
+	}
+	.calendar {
+	  float: right;
+	  input {
+		width: 95px;
+		height: 40px;
+		line-height: 40px;
+		padding-left: 10px;
+		vertical-align: middle;
+		border: 1px solid rgb(204, 204, 204);
+		font-size: 13px;
+		background: rgb(250, 250, 250);
+		box-sizing: border-box;
+	  }
+	}
+  }
+  
+  .order-srh__box {
+	.srh {
+	  margin-top: 15px;
+	  input {
+		float: left;
+		width: 960px;
+		height: 40px;
+		line-height: 40px;
+		padding-left: 10px;
+		border: 1px solid rgb(204, 204, 204);
+		font-size: 14px;
+		background: rgb(255, 255, 255);
+		box-sizing: border-box;
+	  }
+	}
+	.btn {
+	  float: right;
+	  width: 130px;
+	  height: 95px;
+	  line-height: 95px;
+	  font-size: 16px;
+	  background: rgb(102, 102, 102);
+	  color: rgb(255, 255, 255);
+	}
+  }
+  
+  .order-detail {
+	overflow: hidden;
+	padding: 37px 40px 35px;
+	background: rgb(238, 238, 238);
+	> div {
+	  position: relative;
+	}
+	div {
+	  + div {
+		padding-left: 40px;
+	  }
+	  &:first-child:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 1px;
+		height: 100%;
+		background: rgb(208, 208, 208);
+	  }
+	}
+	dl {
+	  font-size: 14px;
+	  + dl {
+		margin-top: 15px;
+	  }
+	}
+	dt {
+	  width: 90px;
+	  display: inline-block;
+	}
+	dd {
+	  display: inline-block;
+	}
+  }
+  
+  .all-order-info {
+	overflow: hidden;
+	width: 100%;
+	padding-top: 35px;
+	border-top: 1px solid rgb(222, 222, 222);
+	dl {
+	  float: left;
+	  width: 33.33%;
+	}
+	dt {
+	  font-size: 18px;
+	  font-weight: normal;
+	  color: rgb(51, 51, 51);
+	}
+	dd {
+	  margin-top: 20px;
+	  line-height: 22px;
+	  font-size: 13px;
+	  color: rgb(51, 51, 51);
+	  word-break: keep-all;
+	}
+  }
+  
+  /*쿠폰*/
+  
+  .srh-coupon {
+	text-align: right;
+	margin-bottom: 20px;
+	input {
+	  width: 230px;
+	  height: 30px;
+	  border-bottom: 1px solid rgb(0, 0, 0);
+	  font-size: 15px;
+	  box-sizing: border-box;
+	  &::-webkit-input-placeholder, &::-ms-input-placeholder, &::placeholder {
+		color: rgb(204, 204, 204);
+	  }
+	}
+	button {
+	  width: 70px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-left: 10px;
+	  text-align: center;
+	  font-size: 15px;
+	}
+  }
+  
+  /*ORDER*/
+  
+  .order__con {
+	+ .order__con {
+	  margin-top: 65px;
+	}
+	.btn-area {
+	  margin-top: 60px;
+	}
+  }
+  
+  .order-caution {
+	margin-top: 15px;
+	line-height: 24px;
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+  }
+  
+  /*가격*/
+  
+  .price__box {
+	overflow: hidden;
+	margin-top: 40px;
+	padding: 16px 0;
+	border-top: 1px solid rgb(34, 34, 34);
+	border-bottom: 1px solid rgb(34, 34, 34);
+	dl {
+	  float: left;
+	  font-size: 0;
+	}
+	dt, dd {
+	  display: inline-block;
+	  font-size: 14px;
+	}
+  }
+  
+  /*장바구니 쿠폰*/
+  
+  .cart-coupon--use {
+	margin-top: 60px;
+	padding: 15px 20px;
+	border-top: 1px solid rgb(238, 238, 238);
+	border-bottom: 1px solid rgb(238, 238, 238);
+	background: rgb(250, 250, 250);
+	font-size: 14px;
+	a {
+	  width: 165px;
+	  height: 30px;
+	  line-height: 30px;
+	  display: inline-block;
+	  text-align: center;
+	  background: rgb(250, 250, 250);
+	  font-size: 13px;
+	}
+	.price {
+	  margin-left: 20px;
+	}
+  }
+  
+  /*주문하기*/
+  
+  .payway__box {
+	.pay {
+	  padding: 28px 0;
+	  border-top: 1px solid rgb(35, 35, 35);
+	  border-bottom: 1px solid rgb(238, 238, 238);
+	  font-size: 0;
+	  li {
+		display: inline-block;
+		+ li {
+		  margin-left: 25px;
+		}
+	  }
+	}
+	.info {
+	  padding-top: 25px;
+	  .tit {
+		margin-bottom: 10px;
+		font-size: 16px;
+	  }
+	  li {
+		font-size: 14px;
+		color: rgb(153, 153, 153);
+		+ li {
+		  margin-top: 5px;
+		}
+	  }
+	}
+	.return-info {
+	  padding-top: 30px;
+	  border-top: 1px solid rgb(34, 34, 34);
+	  color: rgb(102, 102, 102);
+	  li {
+		> i {
+		  margin-left: -10px;
+		}
+		padding-left: 10px;
+		font-size: 14px;
+		+ li {
+		  margin-top: 15px;
+		}
+	  }
+	}
+  }
+  
+  /*비회원*/
+  
+  .nomember__info {
+	padding: 70px 0 30px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+	> h4 {
+	  margin-bottom: 20px;
+	  font-size: 18px;
+	}
+	li {
+	  line-height: 28px;
+	  font-size: 14px;
+	  color: rgb(56, 56, 56);
+	}
+	.check-box {
+	  margin-top: 20px;
+	}
+  }
+  
+  /*결제완료*/
+  
+  .pay-complete-txt {
+	padding: 35px 0;
+	text-align: center;
+	line-height: 22px;
+	font-size: 14px;
+	strong {
+	  display: block;
+	  margin-bottom: 10px;
+	  font-size: 22px;
+	}
+  }
+  
+  /*POPUP*/
+  
+  .popup {
+	position: relative;
+	padding: 25px 40px;
+	background: rgb(255, 255, 255);
+	box-sizing: border-box;
+  }
+  
+  .pop-title {
+	margin-bottom: 15px;
+	line-height: 18px;
+	font-weight: 400;
+	font-size: 16px;
+	> button {
+	  width: 95px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-left: 10px;
+	  font-size: 14px;
+	}
+  }
+  
+  .popup-scroll {
+	max-height: 700px;
+  }
+  
+  .popup {
+	.order__con .btn-area {
+	  margin-top: 40px;
+	}
+	.btn-close {
+	  position: absolute;
+	  right: -13px;
+	  top: -15px;
+	  width: 35px;
+	  height: 35px;
+	  text-indent: -9999px;
+	  background: url(http://brics.styleship.com/pc/resource/images/btn/btn_close-pop.png) center center no-repeat;
+	}
+	.btn-area.small a {
+	  width: 160px;
+	  height: 40px;
+	  line-height: 40px;
+	}
+  }
+  
+  /*아이디 중복확인*/
+  
+  .join.popup .id-check__box {
+	margin-bottom: 20px;
+	padding: 20px 0;
+	border-top: 1px solid rgb(0, 0, 0);
+	border-bottom: 1px solid rgb(238, 238, 238);
+	label {
+	  display: inline-block;
+	  width: 50px;
+	  font-size: 13px;
+	  color: rgb(102, 102, 102);
+	}
+	input[type="text"] {
+	  width: 275px;
+	  height: 30px;
+	  padding-left: 10px;
+	  font-size: 14px;
+	  background: rgb(248, 248, 248);
+	  color: rgb(51, 51, 51);
+	}
+	+ p {
+	  margin-bottom: 40px;
+	  line-height: 24px;
+	  font-size: 13px;
+	}
+	.btn {
+	  display: inline-block;
+	  width: 70px;
+	  height: 30px;
+	  line-height: 30px;
+	  margin-left: 6px;
+	  border: 1px solid rgb(204, 204, 204);
+	  text-align: center;
+	  font-size: 14px;
+	}
+  }
+  
+  /*멤버쉽 안내*/
+  
+  .mypage.popup {
+	.inner {
+	  padding: 20px;
+	}
+	.mbrship-info {
+	  font-family: 'Spoqa Han Sans';
+	  > {
+		h2 {
+		  margin-bottom: 5px;
+		  font-size: 24px;
+		  font-weight: 400;
+		}
+		p {
+		  font-size: 18px;
+		  line-height: 32px;
+		  color: rgb(51, 51, 51);
+		}
+	  }
+	}
+	.mbr-grade {
+	  display: inline-block;
+	  height: 25px;
+	  padding: 0;
+	  vertical-align: middle;
+	  background: none;
+	}
+	.ico-grade {
+	  display: inline-block;
+	  width: 25px;
+	  height: 25px;
+	  background-size: 100%;
+	}
+	.my-order {
+	  padding: 30px 0;
+	  font-size: 0;
+	  > div {
+		display: inline-block;
+		width: 50%;
+		vertical-align: middle;
+		box-sizing: border-box;
+	  }
+	  .left {
+		text-align: left;
+	  }
+	  .right {
+		text-align: right;
+	  }
+	  dl {
+		line-height: 32px;
+		font-size: 0;
+	  }
+	  dt {
+		width: 185px;
+		display: inline-block;
+		font-size: 15px;
+	  }
+	  dd {
+		display: inline-block;
+		font-size: 15px;
+	  }
+	  .btn {
+		display: inline-block;
+		width: 160px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		font-size: 15px;
+	  }
+	}
+  }
+  
+  /*주문하기*/
+  
+  #addrPlusPop {
+	width: 710px;
+	.popup {
+	  width: auto;
+	}
+  }
+  
+  .order.popup {
+	width: 1040px;
+	padding: 40px;
+	.price__box {
+	  margin: 0;
+	  padding: 33px 0;
+	  line-height: 30px;
+	  border-top: 2px solid rgb(35, 35, 35);
+	  border-bottom: 1px solid rgb(238, 238, 238);
+	}
+  }

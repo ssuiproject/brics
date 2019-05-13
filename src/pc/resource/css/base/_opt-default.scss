@@ -1,0 +1,543 @@
+/*! 초기화(옵션) 스타일 */
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700');
+
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+ol, ul, li, dl, dt, dd {
+  list-style: none;
+}
+
+h1, h2, h3, h4, body, div, dl, dt, dd, ul, li, ol, p, figure {
+  padding: 0;
+  margin: 0;
+}
+
+/* 필요한 base 넣을것 */
+
+:root, html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Muli', 'Spoqa Han Sans';
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgb(34, 34, 34);
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  line-height: normal;
+  font: inherit;
+  color: inherit;
+  overflow: visible;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input {
+  &[type='submit'], &[type='reset'], &[type='button'] {
+    padding: 0;
+    border: 0;
+    background: none;
+    line-height: normal;
+    font: inherit;
+    color: inherit;
+    overflow: visible;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+
+button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+}
+
+input {
+  &[type='submit'], &[type='reset'], &[type='button'] {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+}
+
+a {
+  color: inherit;
+  &:link {
+    text-decoration: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.acc-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  line-height: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  visibility: hidden;
+  font-size: 0;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input {
+  &[type='text'], &[type='tel'], &[type='password'] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin: 0;
+    line-height: normal;
+    border: 0;
+  }
+}
+
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  margin: 0;
+  line-height: normal;
+  border: 0;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type='number'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ui-loader {
+  display: none;
+}
+
+select {
+  border-radius: none;
+  -webkit-border-radius: 0;
+}
+
+.cb {
+  clear: both;
+}
+
+a[href^=tel] {
+  color: inherit;
+}
+
+input[type="password"] {
+  font-family: sans-serif;
+}
+
+/*슬라이더 공통*/
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-arrow {
+  width: 24px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  z-index: 11;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 64px;
+  background-image: url(http://brics.styleship.com/pc/resource/images/common/arr_left_bk.png);
+}
+
+.slick-next {
+  right: 64px;
+  background-image: url(http://brics.styleship.com/pc/resource/images/common/arr_right_bk.png);
+}
+
+.slick-dots {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  z-index: 11;
+  font-size: 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+    button {
+      width: 10px;
+      height: 10px;
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+    }
+    &.slick-active button:after {
+      width: 20px;
+      height: 20px;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 50%;
+      box-sizing: border-box;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+body .slick-vertical .slick-slide {
+  border: 0;
+}
+
+/*공통 타이틀 스타일*/
+
+.tit-style {
+  font-family: 'Muli', 'Spoqa Han Sans';
+  font-weight: 300;
+  font-size: 36px;
+  color: rgb(34, 34, 34);
+  letter-spacing: -1.5px;
+}
+
+.tit-style2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(51, 51, 51);
+}
+
+.tit-style3 {
+  margin-bottom: 7px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.tit-style4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tit-style5 {
+  padding-bottom: 30px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Spoqa Han Sans';
+  color: rgb(51, 51, 51);
+}
+
+.tit-sub-style {
+  font-weight: normal;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.tit-sub-style2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.tit-sub-style3 {
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.tit-sub-style4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.tit-sub-style5 {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: normal;
+  > span {
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+  }
+}
+
+/*공통 버튼 스타일*/
+
+.btn__style1 {
+  width: 140px;
+  height: 51px;
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(113, 113, 113);
+  text-align: center;
+  line-height: 51px;
+  border: 2px solid rgb(34, 34, 34);
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  &:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+  }
+}
+
+/* 버튼 border style */
+
+.btn__style--bd {
+  border: 1px solid rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+}
+
+.btn__style--bd2 {
+  border: 1px solid rgb(204, 204, 204);
+  color: rgb(130, 130, 130);
+}
+
+.btn__style--bd3 {
+  border: 1px solid rgb(213, 213, 213);
+  color: rgb(34, 34, 34);
+}
+
+/* 버튼 bg style */
+
+.btn__style--bg {
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+.btn__style--bg2 {
+  background: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+.btn__style--bg3 {
+  background: rgb(153, 153, 153);
+  color: rgb(255, 255, 255);
+}
+
+/*포인트컬러*/
+
+.pcolor {
+  color: rgb(192, 0, 0);
+}
+
+.pcolor2 {
+  color: rgb(34, 34, 34);
+}
+
+/*체크박스 스타일*/
+
+.input__checkbox {
+  position: absolute;
+  z-index: -99999;
+  opacity: 0;
+  + label {
+    min-width: 13px;
+    min-height: 13px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/bg_checkbox_off.jpg);
+  }
+  &:checked + label {
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/bg_checkbox_on.jpg);
+  }
+}
+
+/*서브페이지 체크백스*/
+
+.check-box {
+  position: relative;
+  input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+  label {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  input[type="checkbox"] {
+    + label:before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      vertical-align: text-bottom;
+      background: url(http://brics.styleship.com/pc/resource/images/common/bg_checkbox_off2.png) 0 0 no-repeat;
+    }
+    &:checked + label:before {
+      background: url(http://brics.styleship.com/pc/resource/images/common/bg_checkbox_on2.png) 0 0 no-repeat;
+    }
+  }
+}
+
+/* RADIO */
+
+.radio-area {
+  font-size: 13px;
+  input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  label {
+    vertical-align: middle;
+  }
+  input[type="radio"] {
+    + label:before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 17px;
+      margin-right: 10px;
+      vertical-align: middle;
+      background: url(http://brics.styleship.com/pc/resource/images/common/bg_radio.png) 0 -27px no-repeat;
+      background-size: 16px;
+    }
+    &:checked + label:before {
+      background-position-y: 0;
+    }
+  }
+  span + span {
+    margin-left: 10px;
+  }
+}
+
+/*MARGIN*/
+
+.mb80 {
+  margin-bottom: 80px !important;
+}
+
+.mb100 {
+  margin-bottom: 100px !important;
+}
+
+/*PAGING*/
+
+.paging {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+  a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    &:not(.btn__paging) {
+      &.on, &:hover {
+        background-color: rgb(249, 249, 249);
+      }
+    }
+  }
+  .num {
+    display: inline-block;
+    margin: 0 20px;
+    a:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.btn__paging {
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  &.prev {
+    margin-left: 0;
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/arr_left_bk_mini.png);
+  }
+  &.next {
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/arr_right_bk_mini.png);
+  }
+}

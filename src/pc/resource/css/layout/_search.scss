@@ -1,0 +1,87 @@
+/*SEARCH*/
+.btn__search {
+    width: 23px;
+    height: 23px;
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_serach.png);
+}
+
+.btn__search--open {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.search-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -999;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    transition: all 0.15s;
+}
+
+body.search-box--open .search-box {
+    z-index: 999;
+    opacity: 1;
+}
+
+.search-box .line-box {
+    max-width: 1600px;
+    min-width: 1200px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    /*border-bottom: 2px solid rgb(0,0,0);*/
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.input__search {
+    width: calc(100% - 56px);
+    height: 58px;
+    display: inline-block;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(113, 113, 113);
+    text-align: center;
+    letter-spacing: -0.5px;
+    outline: 0;
+}
+
+.search-box button.btn__search {
+    display: inline-block;
+    margin-bottom: 14px;
+    vertical-align: bottom;
+}
+
+.btn__search--close {
+    margin-left: 10px;
+    background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_x.png);
+}
+
+
+@media screen and (max-width: 1600px) {
+    .btn__search--open {
+        right: 10px;
+    }
+}

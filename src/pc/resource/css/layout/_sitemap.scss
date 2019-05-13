@@ -1,0 +1,89 @@
+/*SITEMAP*/
+.sitemap-box {
+    padding: 35px 0;
+    font-size: 0;
+    text-align: center;
+    .sitemap {
+        width: 16.666625%;
+        display: inline-block;
+        vertical-align: top;
+        .tit {
+            font-weight: 700;
+            font-size: 14px;
+            color: rgb(34, 34, 34);
+            letter-spacing: -0.5px;
+        }
+        a {
+            display: block;
+            font-family: 'Spoqa Han Sans';
+            font-weight: 300;
+            font-size: 12px;
+            color: rgb(34, 34, 34);
+            line-height: 24px;
+            strong {
+                font-weight: 700;
+            }
+        }
+        ul {
+            margin: 17px 0 0;
+        }
+        &.follow ul {
+            margin: 22px 0 0;
+            font-size: 0;
+            li {
+                display: inline-block;
+                margin-left: 19px;
+                vertical-align: top;
+                &:first-child {
+                    margin-left: 0;
+                }
+                .share {
+                    width: 22px;
+                    height: 22px;
+                    text-indent: -9999px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+                .share__facebook {
+                    background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_facebook.png);
+                    &:hover {
+                        background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_facebook_on.png);
+                    }
+                }
+                .share__instagram {
+                    background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_instagram.png);
+                    &:hover {
+                        background-image: url(http://brics.styleship.com/pc/resource/images/common/ico_instagram_on.png);
+                    }
+                }
+            }
+        }
+        .newslatter {
+            margin: 25px 0 0;
+            .input__newsletter {
+                width: 75.5%;
+                height: 36px;
+                display: inline-block;
+                padding: 0 0 0 10px;
+                margin-right: 3.75%;
+                font-weight: 400;
+                font-size: 14px;
+                color: rgb(34, 34, 34);
+                border: 2px solid rgb(153, 153, 153);
+                box-sizing: border-box;
+                outline: 0;
+            }
+            .btn__news {
+                width: 20.75%;
+                height: 36px;
+                display: inline-block;
+                font-family: 'Spoqa Han Sans';
+                font-weight: 400;
+                font-size: 16px;
+                color: rgb(255, 255, 255);
+                vertical-align: top;
+                background-color: rgb(153, 153, 153);
+            }
+        }
+    }
+}
