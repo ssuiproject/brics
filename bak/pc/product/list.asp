@@ -1,23 +1,23 @@
-<!-- #include virtual = "../../layout/initialize.asp" -->
-<!-- #include virtual = "../../layout/doc_title.asp" -->
-<!-- #include virtual = "../../layout/html_header.asp" -->
+<!-- #include virtual = "../layout/initialize.asp" -->
+<!-- #include virtual = "../layout/doc_title.asp" -->
+<!-- #include virtual = "../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../../resource/js/lib/jquery.mCustomScrollbar.min.js"></script>
-	<link rel="stylesheet" href="../../resource/css/jquery.mCustomScrollbar.css">
+	<script src="../resource/js/lib/jquery.mCustomScrollbar.min.js"></script>
+	<link rel="stylesheet" href="../resource/css/jquery.mCustomScrollbar.css">
 
-	<script src="../../resource/js/pages/list.js"></script>
+	<script src="../resource/js/pages/list.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../../layout/doc_header.asp" -->	
+<!-- #include virtual = "../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
 			
-<!-- #include virtual = "../../layout/doc_location.asp" -->	
+<!-- #include virtual = "../layout/doc_location.asp" -->	
 
 			<!--상품 LNB, 상품리스트 4단-->
 			<section class="goods-area">
@@ -732,7 +732,7 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../../layout/doc_footer.asp" -->
+<!-- #include virtual = "../layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

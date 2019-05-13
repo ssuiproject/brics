@@ -1,19 +1,19 @@
-<!-- #include virtual = "../../layout/initialize.asp" -->
-<!-- #include virtual = "../../layout/doc_title.asp" -->
-<!-- #include virtual = "../../layout/html_header.asp" -->
+<!-- #include virtual = "../layout/initialize.asp" -->
+<!-- #include virtual = "../layout/doc_title.asp" -->
+<!-- #include virtual = "../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../../resource/js/pages/list.js"></script>
+	<script src="../resource/js/pages/list.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../../layout/doc_header.asp" -->	
+<!-- #include virtual = "../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
-<!-- #include virtual = "../../layout/doc_location.asp" -->			
+<!-- #include virtual = "../layout/doc_location.asp" -->			
 
 
 			<!--상품 리스트 2단-->
@@ -406,9 +406,9 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../../layout/doc_footer.asp" -->
+<!-- #include virtual = "../layout/doc_footer.asp" -->
 
-<!-- #include virtual = "../../layout/doc_fGnb.asp" -->
+<!-- #include virtual = "../layout/doc_fGnb.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

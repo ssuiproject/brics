@@ -1,15 +1,15 @@
-<!-- #include virtual = "../../layout/initialize.asp" -->
-<!-- #include virtual = "../../layout/doc_title.asp" -->
-<!-- #include virtual = "../../layout/html_header.asp" -->
+<!-- #include virtual = "../layout/initialize.asp" -->
+<!-- #include virtual = "../layout/doc_title.asp" -->
+<!-- #include virtual = "../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../../resource/js/pages/toggle.js"></script>
+	<script src="../resource/js/pages/toggle.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../../layout/doc_header.asp" -->	
+<!-- #include virtual = "../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -48,7 +48,7 @@
 
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../../layout/doc_footer.asp" -->
+<!-- #include virtual = "../layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>
