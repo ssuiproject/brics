@@ -176,16 +176,16 @@
 								
 								<div class="scroll__filter">
 									<ul class="list__filter">
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-										<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+										<li><a href="#"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
 									</ul>
 								</div>
 							</div>
@@ -242,8 +242,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -254,16 +254,16 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">2pcs sale</p>
@@ -275,8 +275,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -287,10 +287,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">1+1</p>
@@ -302,8 +302,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -315,10 +315,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1+1+1</p>
@@ -330,8 +330,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -343,10 +343,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1</p>
@@ -359,8 +359,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -371,16 +371,16 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">2pcs sale</p>
@@ -392,8 +392,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -404,10 +404,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">1+1</p>
@@ -419,8 +419,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -432,10 +432,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1+1+1</p>
@@ -447,8 +447,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -460,10 +460,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1</p>
@@ -476,8 +476,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -488,16 +488,16 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">2pcs sale</p>
@@ -509,8 +509,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -521,10 +521,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">1+1</p>
@@ -536,8 +536,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -549,10 +549,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1+1+1</p>
@@ -564,8 +564,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -577,10 +577,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1</p>
@@ -593,8 +593,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -605,16 +605,16 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">2pcs sale</p>
@@ -626,8 +626,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -638,10 +638,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<div class="tag-box">
 											<p class="tag">1+1</p>
@@ -653,8 +653,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -666,10 +666,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1+1+1</p>
@@ -681,8 +681,8 @@
 							<li>
 								<a href="#">
 									<div class="photo">
-										<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-										<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+										<div class="front"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+										<div class="back"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 									</div>
 									<div class="info">
 										<p class="category">RICCIONE</p>
@@ -694,10 +694,10 @@
 											<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p-->
 										</div>
 										<ul class="list__colorchip">
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
-											<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></li>
+											<li><img src="http://brics.styleship.com/pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></li>
 										</ul>
 										<!--div class="tag-box">
 											<p class="tag">1+1</p>

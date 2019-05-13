@@ -106,7 +106,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<div class="txt">
 													<dl>
 														<dt>Riccione carry-on trolley</dt>
@@ -152,7 +152,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<div class="txt">
 													<dl>
 														<dt>Riccione carry-on trolley</dt>

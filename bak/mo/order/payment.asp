@@ -15,10 +15,10 @@
 		<div id="subContents">
 			<div class="sub-step order">
 				<ul>
-					<li class="step1"><i><img src="../../resource/images/sub/ico_order_step.png" alt=""></i>장바구니</li>
-					<li class="step2"><i><img src="../../resource/images/sub/ico_order_step02.png" alt=""></i>배송정보</li>
-					<li class="step3 on"><i><img src="../../resource/images/sub/ico_order_step03_on.png" alt=""></i>결제하기</li>
-					<li class="step4"><i><img src="../../resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
+					<li class="step1"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step.png" alt=""></i>장바구니</li>
+					<li class="step2"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step02.png" alt=""></i>배송정보</li>
+					<li class="step3 on"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step03_on.png" alt=""></i>결제하기</li>
+					<li class="step4"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
 				</ul>
 			</div>
 			<div class="sub__txt">

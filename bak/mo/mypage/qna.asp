@@ -35,7 +35,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -67,7 +67,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -99,7 +99,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -131,7 +131,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -163,7 +163,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -195,7 +195,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -227,7 +227,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -259,7 +259,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -291,7 +291,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>
@@ -323,7 +323,7 @@
 								<span class="num">10</span>
 								<div class="tit">
 									<a href="" class="ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
+									<i class="file"><img src="http://brics.styleship.com/mo/resource/images/sub/ico_file.gif" alt="파일첨부"></i>								
 								</div>
 								<div class="q-info">
 									<span>상품문의</span>

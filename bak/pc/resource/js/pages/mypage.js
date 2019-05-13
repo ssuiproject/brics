@@ -69,7 +69,7 @@
 		
 		var clareCalendar = {
 			showOn: "button",
-			buttonImage: "../../resource/images/btn/btn_calendar.gif",
+			buttonImage: "http://brics.styleship.com/pc/resource/images/btn/btn_calendar.gif",
 			buttonImageOnly: true,
 
 			monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],

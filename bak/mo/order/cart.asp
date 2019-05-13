@@ -15,10 +15,10 @@
 		<div id="subContents">
 			<div class="sub-step order">
 				<ul>
-					<li class="step1 on"><i><img src="../../resource/images/sub/ico_order_step_on.png" alt=""></i>장바구니</li>
-					<li class="step2"><i><img src="../../resource/images/sub/ico_order_step02.png" alt=""></i>배송정보</li>
-					<li class="step3"><i><img src="../../resource/images/sub/ico_order_step03.png" alt=""></i>결제하기</li>
-					<li class="step4"><i><img src="../../resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
+					<li class="step1 on"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step_on.png" alt=""></i>장바구니</li>
+					<li class="step2"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step02.png" alt=""></i>배송정보</li>
+					<li class="step3"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step03.png" alt=""></i>결제하기</li>
+					<li class="step4"><i><img src="http://brics.styleship.com/mo/resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
 				</ul>
 			</div>
 			<div class="sub__txt">
@@ -46,7 +46,7 @@
 											<input type="checkbox" id="wish1" name="wish1">
 											<label for="wish1"></label>
 										</div>
-										<a href="" class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
+										<a href="" class="photo"><img src="http://brics.styleship.com/mo/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
 												<dd>TU</dd>
@@ -86,7 +86,7 @@
 											<input type="checkbox" id="wish1" name="wish1">
 											<label for="wish1"></label>
 										</div>
-										<a href="" class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
+										<a href="" class="photo"><img src="http://brics.styleship.com/mo/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
 												<dd>TU</dd>

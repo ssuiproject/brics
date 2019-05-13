@@ -18,7 +18,7 @@
 	margin-bottom: 20px;
 	padding-left: 20px;
 	border: 1px solid rgb(233,232,232);
-	background: rgb(255,255,255)  url(../../resource/images/btn/btn_select_menu.png) no-repeat 96% center;
+	background: rgb(255,255,255)  url(http://brics.styleship.com/mo/resource/images/btn/btn_select_menu.png) no-repeat 96% center;
 	background-size: 12px;
 	font-size: 1.4rem;
 	-webkit-appearance: none;
@@ -51,12 +51,12 @@ input[type='password'].input__style2,
 	box-sizing: border-box;		
 }
 .select__style2{
-	background:  rgb(238,238,238) url(../../resource/images/sub/bg_select.gif) right -1px no-repeat;
+	background:  rgb(238,238,238) url(http://brics.styleship.com/mo/resource/images/sub/bg_select.gif) right -1px no-repeat;
 	background-size: 23px;
 	border-right: 0;
 }
 .select__style3{
-	background:  rgb(255,255,255) url(../../resource/images/sub/bg_select02.gif) right center no-repeat;
+	background:  rgb(255,255,255) url(http://brics.styleship.com/mo/resource/images/sub/bg_select02.gif) right center no-repeat;
 	background-size: 27px;
 }
 [class^="select__style"]{
@@ -125,7 +125,7 @@ input[type='password'].input__style2,
 	height: 20px;
 	margin-right: 7px;
 	vertical-align: middle;
-	background:  url(../../resource/images/common/bg_radio.png) 0 -20px no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/common/bg_radio.png) 0 -20px no-repeat;
 	background-size: 16px;
 }	
 .radio-area input[type="radio"]:checked + label:before{background-position-y: 0;}
@@ -323,16 +323,16 @@ table td.left{text-align: left;}
 	background-repeat: no-repeat;
 }
 .list__basic .order-btn .cart{
-	background-image: url(../../resource/images/btn/btn_cart.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/btn/btn_cart.png);
 	background-size: 30px;
 }
 .list__basic .order-btn .delete{
-	background-image: url(../../resource/images/btn/btn_cart_close.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/btn/btn_cart_close.png);
 	background-size: 30px;
 	color: rgb(113,113,113);
 }
 .list__basic .order-btn .now{
-	background-image: url(../../resource/images/btn/btn_noworder.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/btn/btn_noworder.png);
 	background-size: 30px;	
 }
 .list__basic .q .num{
@@ -491,7 +491,7 @@ table td.left{text-align: left;}
 	width: 58px;
 	height: 58px;
 	margin: 0 auto 10px;
-	background:  url(../../resource/images/sub/ico_benefit.png) 0 0 no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/sub/ico_benefit.png) 0 0 no-repeat;
 	background-size: 240px;
 }
 .etc__table .bf-g{background-position-x: -60px;}
@@ -984,7 +984,7 @@ table td.left{text-align: left;}
 	margin-bottom: 25px;
     padding-left: 20px;
     border: 1px solid rgb(204,204,204);
-	background: rgb(248,248,248) url(../../resource/images/sub/arr_select_bt.png) no-repeat 96% center;
+	background: rgb(248,248,248) url(http://brics.styleship.com/mo/resource/images/sub/arr_select_bt.png) no-repeat 96% center;
 	background-size:10px 5px;
     font-size: 1.3rem;
     color: rgb(51,51,51);
@@ -1101,13 +1101,13 @@ table td.left{text-align: left;}
 
 	/*멤버쉽 등급별 스타일*/
 .mbr-grade.g{background: rgb(0,172,81);}
-.mbr-grade.g .ico-grade{background: url(../../resource/images/sub/ico_green.png) 0 0 no-repeat;background-size: 100%;}
+.mbr-grade.g .ico-grade{background: url(http://brics.styleship.com/mo/resource/images/sub/ico_green.png) 0 0 no-repeat;background-size: 100%;}
 .mbr-grade.g .status:before{content: 'Green';}
 .mbr-grade.r{background: rgb(237,75,70);}
-.mbr-grade.r .ico-grade{background: url(../../resource/images/sub/ico_red.png) 0 0 no-repeat;background-size: 100%;}
+.mbr-grade.r .ico-grade{background: url(http://brics.styleship.com/mo/resource/images/sub/ico_red.png) 0 0 no-repeat;background-size: 100%;}
 .mbr-grade.r .status:before{content: 'Red';}
 .mbr-grade.w{background: rgb(237,237,237);}
-.mbr-grade.w .ico-grade{background: url(../../resource/images/sub/ico_white.png) 0 0 no-repeat;background-size: 100%;}
+.mbr-grade.w .ico-grade{background: url(http://brics.styleship.com/mo/resource/images/sub/ico_white.png) 0 0 no-repeat;background-size: 100%;}
 .mbr-grade.w .user p{color: rgb(34,34,34);}
 .mbr-grade.w .status{color: rgb(34,34,34);}
 .mbr-grade.w .status:before{content: 'White';}
@@ -1125,7 +1125,7 @@ table td.left{text-align: left;}
 	right: 0;
 	padding-right: 10px;
 	font-size: 1.2rem;
-	background:  url(../../resource/images/common/arr_right_bk.png) right center no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/common/arr_right_bk.png) right center no-repeat;
 	background-size: 5px;
 }
 .my__con .txt--center{
@@ -1186,11 +1186,11 @@ table td.left{text-align: left;}
 	outline:0;
 }
 .quantity__box .btn-minus{
-	background: url(../../resource/images/btn/btn_minus.gif) 0 0 no-repeat;
+	background: url(http://brics.styleship.com/mo/resource/images/btn/btn_minus.gif) 0 0 no-repeat;
 	background-size: 40px;
 }
 .quantity__box .btn-plus{
-	background: url(../../resource/images/btn/btn_plus.gif) 0 0 no-repeat;
+	background: url(http://brics.styleship.com/mo/resource/images/btn/btn_plus.gif) 0 0 no-repeat;
 	background-size: 40px;
 }
 .quantity__box .btn-change{
@@ -1249,10 +1249,10 @@ table td.left{text-align: left;}
 	margin: 0 auto 5px;
 	background-size: 30px;
 }
-.sub-step.mypage li.step1:before{background-image: url(../../resource/images/sub/ico_my_step.png);}
-.sub-step.mypage li.step2:before{background-image: url(../../resource/images/sub/ico_my_step02.png);}
-.sub-step.mypage li.step3:before{background-image: url(../../resource/images/sub/ico_my_step03.png);}
-.sub-step.mypage li.step4:before{background-image: url(../../resource/images/sub/ico_my_step04.png);}
+.sub-step.mypage li.step1:before{background-image: url(http://brics.styleship.com/mo/resource/images/sub/ico_my_step.png);}
+.sub-step.mypage li.step2:before{background-image: url(http://brics.styleship.com/mo/resource/images/sub/ico_my_step02.png);}
+.sub-step.mypage li.step3:before{background-image: url(http://brics.styleship.com/mo/resource/images/sub/ico_my_step03.png);}
+.sub-step.mypage li.step4:before{background-image: url(http://brics.styleship.com/mo/resource/images/sub/ico_my_step04.png);}
 
 .sub-step.mypage li:after{
     width: 1px;
@@ -1593,7 +1593,7 @@ table td.left{text-align: left;}
 	width: 18px;
 	height: 18px;
 	text-indent: -9999px;
-	background:  url(../../resource/images/btn/btn_close-pop.png) center center no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/btn/btn_close-pop.png) center center no-repeat;
 	background-size: 100%;
 }
 	/*아이디 중복확인*/

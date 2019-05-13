@@ -174,11 +174,11 @@ input[type="password"]{font-family: sans-serif;}
 }
 .slick-prev {	
 	left: 0;
-	background-image: url(../../resource/images/common/arr_left_bk.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_left_bk.png);
 }
 .slick-next {
 	right: 0;
-	background-image: url(../../resource/images/common/arr_right_bk.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_right_bk.png);
 }
 .slick-dots {
 	width: 100%;
@@ -341,10 +341,10 @@ body .slick-vertical .slick-slide {border: 0;}
 	display: block;
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-image: url(../../resource/images/common/bg_checkbox_off.jpg);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/bg_checkbox_off.jpg);
 	background-size: 13px;
 }
-.input__checkbox:checked + label {background-image: url(../../resource/images/common/bg_checkbox_on.jpg);}
+.input__checkbox:checked + label {background-image: url(http://brics.styleship.com/mo/resource/images/common/bg_checkbox_on.jpg);}
 
 /* 서브 페이지 checkbox */
 .check-box {
@@ -372,11 +372,11 @@ body .slick-vertical .slick-slide {border: 0;}
     height: 20px;
 	margin-right: 10px;
 	vertical-align: middle;
-	background:  url(../../resource/images/common/bg_checkbox_off2.png) 0 0 no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/common/bg_checkbox_off2.png) 0 0 no-repeat;
 	background-size: 20px;
 }
 .check-box input[type="checkbox"]:checked + label:before {
-	background:  url(../../resource/images/common/bg_checkbox_on2.png) 0 0 no-repeat;
+	background:  url(http://brics.styleship.com/mo/resource/images/common/bg_checkbox_on2.png) 0 0 no-repeat;
 	background-size: 20px;
 }
 
@@ -393,7 +393,7 @@ body .slick-vertical .slick-slide {border: 0;}
 	border: 1px solid rgb(222,222,222);
 	background-repeat: no-repeat;
 	background-position: calc(100% - 15px) center;
-	background-image: url(../../resource/images/common/arr_bot_bk_15x10.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_bot_bk_15x10.png);
 	background-size: 8px;
 	-webkit-appearance: none;
   -ms-appearance: none;
@@ -447,12 +447,12 @@ body .slick-vertical .slick-slide {border: 0;}
 .btn__paging.prev {
 	margin-left: 0;
 	left: 0;
-	background-image: url(../../resource/images/common/arr_left_bk_15x10.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_left_bk_15x10.png);
 	background-size: 5px;
 }
 .btn__paging.next {
 	right: 0;
-	background-image: url(../../resource/images/common/arr_right_bk_15x10.png);
+	background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_right_bk_15x10.png);
 	background-size: 5px;
 }
 @media screen and (max-width: 320px) {

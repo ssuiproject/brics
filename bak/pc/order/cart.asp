@@ -19,10 +19,10 @@
 			<div class="cart-area">
 				<div class="sub-step mb100">
 					<ul>
-						<li class="step1"><img src="../../resource/images/sub/ico_order_step_on.png" alt="장바구니"></li>
-						<li class="step2"><img src="../../resource/images/sub/ico_order_step02.png" alt="배송정보"></li>
-						<li class="step3"><img src="../../resource/images/sub/ico_order_step03.png" alt="결제하기"></li>
-						<li class="step4"><img src="../../resource/images/sub/ico_order_step04.png" alt="주문완료"></li>
+						<li class="step1"><img src="http://brics.styleship.com/pc/resource/images/sub/ico_order_step_on.png" alt="장바구니"></li>
+						<li class="step2"><img src="http://brics.styleship.com/pc/resource/images/sub/ico_order_step02.png" alt="배송정보"></li>
+						<li class="step3"><img src="http://brics.styleship.com/pc/resource/images/sub/ico_order_step03.png" alt="결제하기"></li>
+						<li class="step4"><img src="http://brics.styleship.com/pc/resource/images/sub/ico_order_step04.png" alt="주문완료"></li>
 					</ul>
 				</div>
 				<section class="order__con">
@@ -68,7 +68,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<div class="txt">
 													<dl>
 														<dt>Riccione carry-on trolley</dt>
@@ -107,7 +107,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="http://brics.styleship.com/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<dl class="txt">
 													<dt>Riccione carry-on trolley</dt>
 													<dd>TU</dd>
