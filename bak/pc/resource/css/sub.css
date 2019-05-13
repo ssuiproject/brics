@@ -66,8 +66,8 @@ input[type='password'].input__style2,
 	vertical-align: middle;
 	box-sizing: border-box;		
 }
-.select__style{background:  rgb(238,238,238) url(../pc/resource/images/sub/bg_select.gif) right 0 no-repeat;}
-.select__style2{background:  rgb(255,255,255) url(../pc/resource/images/sub/bg_select02.gif) right 0 no-repeat;}
+.select__style{background:  rgb(238,238,238) url(../../pc/resource/images/sub/bg_select.gif) right 0 no-repeat;}
+.select__style2{background:  rgb(255,255,255) url(../../pc/resource/images/sub/bg_select02.gif) right 0 no-repeat;}
 [class^="select__style"]{
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -300,14 +300,14 @@ table td.left{
 	background-repeat: no-repeat;
 }
 .list__table .order-btn .cart{
-	background-image: url(../pc/resource/images/btn/btn_cart.png);
+	background-image: url(../../pc/resource/images/btn/btn_cart.png);
 }
 .list__table .order-btn .delete{
-	background-image: url(../pc/resource/images/btn/btn_cart_close.png);
+	background-image: url(../../pc/resource/images/btn/btn_cart_close.png);
 	color: rgb(113,113,113);
 }
 .list__table .order-btn .now{
-	background-image: url(../pc/resource/images/btn/btn_noworder.png);	
+	background-image: url(../../pc/resource/images/btn/btn_noworder.png);	
 }
 .list__table .status-btn a{
 	display: inline-block;
@@ -453,10 +453,10 @@ table td.left{
 	height: 80px;
 	margin: 0 auto 10px;
 }
-.etc__table .bf-t{background:  url(../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
-.etc__table .bf-g{background:  url(../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
-.etc__table .bf-s{background:  url(../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
-.etc__table .bf-f{background:  url(../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
+.etc__table .bf-t{background:  url(../../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
+.etc__table .bf-g{background:  url(../../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
+.etc__table .bf-s{background:  url(../../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
+.etc__table .bf-f{background:  url(../../pc/resource/images/sub/ico_benefit1.png) center 10px no-repeat;}
 
 
 /*INPUT TABLE*/
@@ -975,7 +975,7 @@ table td.left{
 	width: 85px;
 	height: 85px;
 	margin: 0 auto;
-	background:  url(../pc/resource/images/sub/ico_faq.png) -3px -75px no-repeat;
+	background:  url(../../pc/resource/images/sub/ico_faq.png) -3px -75px no-repeat;
 }
 .faq__tab li > a:hover,
 .faq__tab li > a.on{
@@ -1114,13 +1114,13 @@ table td.left{
 }
 	/*멤버쉽 등급별 스타일*/
 .mbr-grade.g{background: rgb(0,172,81);}
-.mbr-grade.g .ico-grade{background-image: url(../pc/resource/images/sub/ico_grade_g.png);}
+.mbr-grade.g .ico-grade{background-image: url(../../pc/resource/images/sub/ico_grade_g.png);}
 .mbr-grade.g .status:before{content: 'Green';}
 .mbr-grade.r{background: rgb(237,75,70);}
-.mbr-grade.r .ico-grade{background-image: url(../pc/resource/images/sub/ico_grade_r.png)}
+.mbr-grade.r .ico-grade{background-image: url(../../pc/resource/images/sub/ico_grade_r.png)}
 .mbr-grade.r .status:before{content: 'Red';}
 .mbr-grade.w{background: rgb(237,237,237);}
-.mbr-grade.w .ico-grade{background-image: url(../pc/resource/images/sub/ico_grade_w.png)}
+.mbr-grade.w .ico-grade{background-image: url(../../pc/resource/images/sub/ico_grade_w.png)}
 .mbr-grade.w .user p{color: rgb(34,34,34);}
 .mbr-grade.w .status{color: rgb(34,34,34);}
 .mbr-grade.w .status:before{content: 'White';}
@@ -1165,7 +1165,7 @@ table td.left{
 	right: 0;
 	padding-right: 10px;
 	font-size: 14px;
-	background:  url(../pc/resource/images/common/arr_right_bk.png) right center no-repeat;
+	background:  url(../../pc/resource/images/common/arr_right_bk.png) right center no-repeat;
 	background-size: 5px;
 }
 .my__con .txt--center{
@@ -1223,10 +1223,10 @@ table td.left{
 	outline:0;
 }
 .quantity__box .btn-minus{
-	background: url(../pc/resource/images/btn/btn_minus.png) 0 0 no-repeat;
+	background: url(../../pc/resource/images/btn/btn_minus.png) 0 0 no-repeat;
 }
 .quantity__box .btn-plus{
-	background: url(../pc/resource/images/btn/btn_plus.png) 0 0 no-repeat;
+	background: url(../../pc/resource/images/btn/btn_plus.png) 0 0 no-repeat;
 }
 .quantity__box .btn-change{
 	background: rgb(250,250,250);
@@ -1599,7 +1599,7 @@ table td.left{
 	width: 35px;
 	height: 35px;
 	text-indent: -9999px;
-	background:  url(../pc/resource/images/btn/btn_close-pop.png) center center no-repeat;
+	background:  url(../../pc/resource/images/btn/btn_close-pop.png) center center no-repeat;
 }
 .popup .btn-area.small a{
 	width: 160px;

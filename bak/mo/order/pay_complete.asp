@@ -75,7 +75,7 @@
 					<ul class="list__basic">
 						<li>	
 							<div class="pd-name">
-								<a href="" class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						
+								<a href="" class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						
 								<div class="txt">
 									<dl>
 										<dt>Riccione carry-on trolley</dt>
@@ -92,7 +92,7 @@
 						</li>
 						<li>	
 							<div class="pd-name">
-								<a href="" class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>
+								<a href="" class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>
 								<div class="txt">
 									<dl>
 										<dt>Riccione carry-on trolley</dt>

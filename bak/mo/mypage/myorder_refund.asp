@@ -45,7 +45,7 @@
 										</dl>										
 									</div>
 									<div class="pd-name">
-										<a href="" class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
+										<a href="" class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
 												<dd>TU</dd>
@@ -94,7 +94,7 @@
 										</dl>										
 									</div>
 									<div class="pd-name">
-										<a href="" class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
+										<a href="" class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></a>						<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
 												<dd>TU</dd>

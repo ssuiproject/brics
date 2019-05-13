@@ -1,15 +1,15 @@
-<!-- #include virtual = "../pc/layout/initialize.asp" -->
-<!-- #include virtual = "../pc/layout/doc_title.asp" -->
-<!-- #include virtual = "../pc/layout/html_header.asp" -->
+<!-- #include virtual = "../../pc/layout/initialize.asp" -->
+<!-- #include virtual = "../../pc/layout/doc_title.asp" -->
+<!-- #include virtual = "../../pc/layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../pc/resource/js/pages/mypage.js"></script>
+	<script src="../../pc/resource/js/pages/mypage.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../pc/layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -86,7 +86,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
@@ -126,7 +126,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
@@ -149,7 +149,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
@@ -172,7 +172,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<dl class="txt">
 											<dt>Riccione carry-on trolley</dt>
 											<dd>TU</dd>
@@ -232,7 +232,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<div class="txt">
 													<dl>
 														<dt>Riccione carry-on trolley</dt>
@@ -268,7 +268,7 @@
 
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../pc/layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

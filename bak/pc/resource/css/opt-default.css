@@ -173,11 +173,11 @@ input[type="password"]{font-family: sans-serif;}
 }
 .slick-prev {	
 	left: 64px;
-	background-image: url(../pc/resource/images/common/arr_left_bk.png);
+	background-image: url(../../pc/resource/images/common/arr_left_bk.png);
 }
 .slick-next {
 	right: 64px;
-	background-image: url(../pc/resource/images/common/arr_right_bk.png);
+	background-image: url(../../pc/resource/images/common/arr_right_bk.png);
 }
 .slick-dots {
 	width: 100%;
@@ -356,9 +356,9 @@ body .slick-vertical .slick-slide {border: 0;}
 	display: block;
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-image: url(../pc/resource/images/common/bg_checkbox_off.jpg);
+	background-image: url(../../pc/resource/images/common/bg_checkbox_off.jpg);
 }
-.input__checkbox:checked + label {background-image: url(../pc/resource/images/common/bg_checkbox_on.jpg);}
+.input__checkbox:checked + label {background-image: url(../../pc/resource/images/common/bg_checkbox_on.jpg);}
 
 /*서브페이지 체크백스*/
 .check-box {
@@ -386,10 +386,10 @@ body .slick-vertical .slick-slide {border: 0;}
     height: 20px;
 	margin-right: 10px;
 	vertical-align: text-bottom;
-	background:  url(../pc/resource/images/common/bg_checkbox_off2.png) 0 0 no-repeat;
+	background:  url(../../pc/resource/images/common/bg_checkbox_off2.png) 0 0 no-repeat;
 }
 .check-box input[type="checkbox"]:checked + label:before {
-	background:  url(../pc/resource/images/common/bg_checkbox_on2.png) 0 0 no-repeat;
+	background:  url(../../pc/resource/images/common/bg_checkbox_on2.png) 0 0 no-repeat;
 }
 /* RADIO */
 .radio-area{
@@ -411,7 +411,7 @@ body .slick-vertical .slick-slide {border: 0;}
 	height: 17px;
 	margin-right: 10px;
 	vertical-align: middle;
-	background:  url(../pc/resource/images/common/bg_radio.png) 0 -27px no-repeat;
+	background:  url(../../pc/resource/images/common/bg_radio.png) 0 -27px no-repeat;
 	background-size: 16px;
 }	
 .radio-area input[type="radio"]:checked + label:before{background-position-y: 0;}
@@ -455,7 +455,7 @@ body .slick-vertical .slick-slide {border: 0;}
 }
 .btn__paging.prev {
 	margin-left: 0;
-	background-image: url(../pc/resource/images/common/arr_left_bk_mini.png);
+	background-image: url(../../pc/resource/images/common/arr_left_bk_mini.png);
 }
-.btn__paging.next {background-image: url(../pc/resource/images/common/arr_right_bk_mini.png);}
+.btn__paging.next {background-image: url(../../pc/resource/images/common/arr_right_bk_mini.png);}
 

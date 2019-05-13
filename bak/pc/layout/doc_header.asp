@@ -49,7 +49,7 @@
 						<div class="depth2">
 							<div class="inner">										
 								<div class="gnb__banner">
-									<a href="#"><img src="../pc/resource/images/_temp/img_gnb_banner01.jpg" alt="" /></a>
+									<a href="#"><img src="../../pc/resource/images/_temp/img_gnb_banner01.jpg" alt="" /></a>
 								</div>
 								
 								<div class="category-box">
@@ -96,7 +96,7 @@
 						<div class="depth2">
 							<div class="inner">
 								<div class="gnb__banner">
-									<a href="#"><img src="../pc/resource/images/_temp/img_gnb_banner02.jpg" alt="" /></a>
+									<a href="#"><img src="../../pc/resource/images/_temp/img_gnb_banner02.jpg" alt="" /></a>
 								</div>
 								
 								<div class="category-box">
@@ -137,7 +137,7 @@
 						<div class="depth2">
 							<div class="inner">
 								<div class="gnb__banner">
-									<a href="#"><img src="../pc/resource/images/_temp/img_gnb_banner03.jpg" alt="" /></a>
+									<a href="#"><img src="../../pc/resource/images/_temp/img_gnb_banner03.jpg" alt="" /></a>
 								</div>
 								
 								<div class="category-box">
@@ -178,7 +178,7 @@
 						<div class="depth2">
 							<div class="inner">
 								<div class="gnb__banner">
-									<a href="#"><img src="../pc/resource/images/_temp/img_gnb_banner04.jpg" alt="" /></a>
+									<a href="#"><img src="../../pc/resource/images/_temp/img_gnb_banner04.jpg" alt="" /></a>
 								</div>
 								
 								<div class="category-box">
@@ -220,7 +220,7 @@
 						<div class="depth2">
 							<div class="inner">
 								<div class="gnb__banner">
-									<a href="#"><img src="../pc/resource/images/_temp/img_gnb_banner05.jpg" alt="" /></a>
+									<a href="#"><img src="../../pc/resource/images/_temp/img_gnb_banner05.jpg" alt="" /></a>
 								</div>
 								
 								<div class="category-box">
