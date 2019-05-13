@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>퍼블리싱 UI가이드</title>
+<link rel="stylesheet" type="text/css" href="./common.css">
+<script src="../../resource/js/lib/jquery-1.12.4.min.js"></script>
+<script src="../../resource/js/lib/jquery.ui.1.11.4.min.js"></script>
+<!--
+<script src="http://prometheus.mywebstyle.co.kr/publish/common/js/jquery.syntax/jquery.syntax.js"></script>
+<script src="http://prometheus.mywebstyle.co.kr/publish/common/js/jquery.syntax/jquery.syntax.cache.js"></script>
+-->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".nav-gnb li").click(function(){
+			$(".nav-gnb li").addClass("active").not(this).removeClass("active");
+		});
+	});
+</script>
+
+
+</head>
+<body>
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<!-- 로고/홈으로 -->
+		<a href="#none" class="logo"><span>BRICS</span><span>퍼블리싱 가이드</span></a>
+
+		<!-- GNB -->
+		<div class="nav-gnb">
+			<ul>
+				<li class="active"><a href="./rule.html" target="uiContentFrame">작업규칙</a></li>
+				<li><a href="./guide.html" target="uiContentFrame">마크업가이드</a></li>
+				<li><a href="./list.html" target="uiContentFrame">HTML 리스트</a></li>
+			</ul>
+		</div>
+
+		<div class="util-area">
+			<a href="http://validator.kldp.org/" target="_blank" title="새창">W3C Markup 검증</a>
+			<a href="https://accessibility.kr/nia/check.php" target="_blank" title="새창">웹접근성 자가진단</a>
+		</div>
+
+		<!-- 컨트롤
+		<div class="area-control">
+			<a href="#none">헤더 펼침/닫기</a>
+		</div> -->
+	</div>
+	<!-- //header -->
+
+	
+
+	<!-- 본문영역 -->
+	<div id="container">
+		<div class="content">
+			<iframe src="./rule.html" title="본문컨텐츠프레임" name="uiContentFrame"></iframe>
+		</div>
+	</div>
+	<!-- //본문영역 -->
+
+</div>
+
+
+</body>
+</html>
