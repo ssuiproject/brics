@@ -28,9 +28,9 @@ var sassdoc      = require('sassdoc');
 var browserSync  = require( 'browser-sync' ).create();
 
 // Project related variables
-var styleSRCmin  = './src/pc/stylesheets/style.scss';
-var styleSRC     = './src/pc/stylesheets/**/*.scss';
-var styleURL     = './dist/pc/resource/css/';
+var styleSRCmin  = './src../pc/stylesheets/style.scss';
+var styleSRC     = './src../pc/stylesheets/**/*.scss';
+var styleURL     = './dist../pc/resource/css/';
 var mapURL       = './';
 
 var jsSRC        = './src/js/';
@@ -47,7 +47,7 @@ var fontsURL     = './dist/fonts/';
 var htmlSRC     = './src/**/*.html';
 var htmlURL     = './dist/';
 
-var styleWatch   = './src/pc/stylesheets/**/*.scss';
+var styleWatch   = './src../pc/stylesheets/**/*.scss';
 var jsWatch      = './src/js/**/*.js';
 var imgWatch     = './src/images/**/*.*';
 var fontsWatch   = './src/fonts/**/*.*';

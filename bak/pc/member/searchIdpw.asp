@@ -1,6 +1,6 @@
-<!-- #include virtual = "/pc/layout/initialize.asp" -->
-<!-- #include virtual = "/pc/layout/doc_title.asp" -->
-<!-- #include virtual = "/pc/layout/html_header.asp" -->
+<!-- #include virtual = "../pc/layout/initialize.asp" -->
+<!-- #include virtual = "../pc/layout/doc_title.asp" -->
+<!-- #include virtual = "../pc/layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
 	
@@ -9,7 +9,7 @@
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../pc/layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -44,7 +44,7 @@
 		</div>	
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../pc/layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

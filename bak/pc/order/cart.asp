@@ -1,6 +1,6 @@
-<!-- #include virtual = "/pc/layout/initialize.asp" -->
-<!-- #include virtual = "/pc/layout/doc_title.asp" -->
-<!-- #include virtual = "/pc/layout/html_header.asp" -->
+<!-- #include virtual = "../pc/layout/initialize.asp" -->
+<!-- #include virtual = "../pc/layout/doc_title.asp" -->
+<!-- #include virtual = "../pc/layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
 	
@@ -9,7 +9,7 @@
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../pc/layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -19,10 +19,10 @@
 			<div class="cart-area">
 				<div class="sub-step mb100">
 					<ul>
-						<li class="step1"><img src="/pc/resource/images/sub/ico_order_step_on.png" alt="장바구니"></li>
-						<li class="step2"><img src="/pc/resource/images/sub/ico_order_step02.png" alt="배송정보"></li>
-						<li class="step3"><img src="/pc/resource/images/sub/ico_order_step03.png" alt="결제하기"></li>
-						<li class="step4"><img src="/pc/resource/images/sub/ico_order_step04.png" alt="주문완료"></li>
+						<li class="step1"><img src="../pc/resource/images/sub/ico_order_step_on.png" alt="장바구니"></li>
+						<li class="step2"><img src="../pc/resource/images/sub/ico_order_step02.png" alt="배송정보"></li>
+						<li class="step3"><img src="../pc/resource/images/sub/ico_order_step03.png" alt="결제하기"></li>
+						<li class="step4"><img src="../pc/resource/images/sub/ico_order_step04.png" alt="주문완료"></li>
 					</ul>
 				</div>
 				<section class="order__con">
@@ -68,7 +68,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<div class="txt">
 													<dl>
 														<dt>Riccione carry-on trolley</dt>
@@ -107,7 +107,7 @@
 										</td>
 										<td class="pd-name">
 											<a href="">
-												<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+												<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 												<dl class="txt">
 													<dt>Riccione carry-on trolley</dt>
 													<dd>TU</dd>
@@ -186,7 +186,7 @@
 
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../pc/layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

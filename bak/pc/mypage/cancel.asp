@@ -1,17 +1,17 @@
-<!-- #include virtual = "/pc/layout/initialize.asp" -->
-<!-- #include virtual = "/pc/layout/doc_title.asp" -->
-<!-- #include virtual = "/pc/layout/html_header.asp" -->
+<!-- #include virtual = "../pc/layout/initialize.asp" -->
+<!-- #include virtual = "../pc/layout/doc_title.asp" -->
+<!-- #include virtual = "../pc/layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<link rel="stylesheet" href="/pc/resource/css/jquery-ui.css">
-	<script src="/pc/resource/js/lib/jquery.ui.1.11.4.min.js"></script>
-	<script src="/pc/resource/js/pages/mypage.js"></script>
+	<link rel="stylesheet" href="../pc/resource/css/jquery-ui.css">
+	<script src="../pc/resource/js/lib/jquery.ui.1.11.4.min.js"></script>
+	<script src="../pc/resource/js/pages/mypage.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../pc/layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -30,10 +30,10 @@
 				<div class="sub-step bg">
 					<h3 class="tit-sub-style4">주문 진행 현황</h3>
 					<ul>
-						<li class="step1"><img src="/pc/resource/images/sub/ico_my_step.png" alt=""><p>주문접수<span>0</span></p></li>
-						<li class="step2"><img src="/pc/resource/images/sub/ico_my_step02.png" alt=""><p>입금완료<span>0</span></p></li>
-						<li class="step3"><img src="/pc/resource/images/sub/ico_my_step03.png" alt=""><p>배송준비중<span>0</span></p></li>
-						<li class="step4"><img src="/pc/resource/images/sub/ico_my_step04.png" alt=""><p>발송완료<span>0</span></p></li>
+						<li class="step1"><img src="../pc/resource/images/sub/ico_my_step.png" alt=""><p>주문접수<span>0</span></p></li>
+						<li class="step2"><img src="../pc/resource/images/sub/ico_my_step02.png" alt=""><p>입금완료<span>0</span></p></li>
+						<li class="step3"><img src="../pc/resource/images/sub/ico_my_step03.png" alt=""><p>배송준비중<span>0</span></p></li>
+						<li class="step4"><img src="../pc/resource/images/sub/ico_my_step04.png" alt=""><p>발송완료<span>0</span></p></li>
 					</ul>
 				</div>
 				<section class="my__con">
@@ -101,7 +101,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
@@ -138,7 +138,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<div class="txt">
 											<dl>
 												<dt>Riccione carry-on trolley</dt>
@@ -161,7 +161,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<dl class="txt">
 											<dt>Riccione carry-on trolley</dt>
 											<dd>TU</dd>
@@ -182,7 +182,7 @@
 								</td>
 								<td class="pd-name">
 									<a href="">
-										<span class="photo"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
+										<span class="photo"><img src="../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></span>
 										<dl class="txt">
 											<dt>Riccione carry-on trolley</dt>
 											<dd>TU</dd>
@@ -277,7 +277,7 @@
 
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../pc/layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

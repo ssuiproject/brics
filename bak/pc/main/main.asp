@@ -1,24 +1,24 @@
-<!-- #include virtual = "/pc/layout/initialize.asp" -->
-<!-- #include virtual = "/pc/layout/doc_title.asp" -->
-<!-- #include virtual = "/pc/layout/html_header.asp" -->
+<!-- #include virtual = "..../pc/layout/initialize.asp" -->
+<!-- #include virtual = "..../pc/layout/doc_title.asp" -->
+<!-- #include virtual = "..../pc/layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="/pc/resource/js/pages/main.js"></script>
+	<script src="....../pc/resource/js/pages/main.js"></script>
 
 </head>
 <body class="main">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-        <!-- #include virtual = "/pc/layout/doc_header.asp" -->	
+        <!-- #include virtual = "..../pc/layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
 			<!--MAIN SLIDER-->
 			<section id="mainSlider" class="main-slider">
-				<div><a href="#"><img src="/pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
-				<div><a href="#"><img src="/pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
-				<div><a href="#"><img src="/pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
-				<div><a href="#"><img src="/pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
+				<div><a href="#"><img src="....../pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
+				<div><a href="#"><img src="....../pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
+				<div><a href="#"><img src="....../pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
+				<div><a href="#"><img src="....../pc/resource/images/_temp/img_main_slide01.jpg" alt="" /></a></div>
 			</section>
 			<!--//MAIN SLIDER-->
 
@@ -31,8 +31,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -49,8 +49,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -67,8 +67,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -85,8 +85,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -107,7 +107,7 @@
 			
 			<!--통 이미지 배너-->
 			<section class="main-banner">
-				<a href="#"><img src="/pc/resource/images/_temp/img_main_banner01.jpg" alt="" /></a>
+				<a href="#"><img src="....../pc/resource/images/_temp/img_main_banner01.jpg" alt="" /></a>
 			</section>
 			<!--//통 이미지 배너-->
 
@@ -120,8 +120,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -138,8 +138,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -156,8 +156,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="....../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="....../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -174,8 +174,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="..../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="..../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -192,8 +192,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="/pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="/pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="..../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="..../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -216,7 +216,7 @@
 			<section class="main-collection">
 				<div id="collectionSlider" class="collection-slider">
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">BELLAGIO</p>
 							<p class="txt">The travel selection for the woman</p>
@@ -224,7 +224,7 @@
 						<a href="#" class="btn__style1">Shop now</a>
 					</div>
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">X-COLLECTION</p>
 							<p class="txt">Unforgettable carry-on duffel bags</p>
@@ -232,7 +232,7 @@
 						<a href="#" class="btn__style1">Shop now</a>
 					</div>
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">CAPRI</p>
 							<p class="txt">Complete with a floral interior lining</p>
@@ -240,7 +240,7 @@
 						<a href="#" class="btn__style1">Shop now</a>
 					</div>
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">BELLAGIO222</p>
 							<p class="txt">The travel selection for the woman</p>
@@ -248,7 +248,7 @@
 						<a href="#" class="btn__style1">Shop now</a>
 					</div>
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">BELLAGIO222</p>
 							<p class="txt">The travel selection for the woman</p>
@@ -256,7 +256,7 @@
 						<a href="#" class="btn__style1">Shop now</a>
 					</div>
 					<div>
-						<div class="photo"><img src="/pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
+						<div class="photo"><img src="..../pc/resource/images/_temp/img_collection_banner02.jpg" alt="" /></div>
 						<div class="info">
 							<p class="tit">BELLAGIO222</p>
 							<p class="txt">The travel selection for the woman</p>
@@ -276,64 +276,64 @@
 				<div id="shareSlider" class="share-slider">
 					<div>
 						<ul class="list__share">
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 							<li class="mini">								
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_collection_banner01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
 							</li>
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 						</ul>						
 					</div>
 
 					<div>
 						<ul class="list__share">
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 							<li class="mini">								
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
 							</li>
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 						</ul>						
 					</div>
 
 					<div>
 						<ul class="list__share">
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 							<li class="mini">								
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
-								<a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta02.jpg" alt="" /></a>
+								<a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a>
 							</li>
-							<li><a href="#"><img src="/pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
+							<li><a href="#"><img src="..../pc/resource/images/_temp/img_temp_insta01.jpg" alt="" /></a></li>
 						</ul>						
 					</div>
 				</div>
@@ -344,7 +344,7 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-		<!-- #include virtual = "/pc/layout/doc_footer.asp" -->
+		<!-- #include virtual = "..../pc/layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

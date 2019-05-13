@@ -3,8 +3,8 @@
 	min-width: 1200px;
 	margin: 0 auto;
 }
-.main-slider .slick-prev {background-image: url(/pc/resource/images/common/arr_left_wt.png);}
-.main-slider .slick-next {background-image: url(/pc/resource/images/common/arr_right_wt.png);}
+.main-slider .slick-prev {background-image: url(../pc/resource/images/common/arr_left_wt.png);}
+.main-slider .slick-next {background-image: url(../pc/resource/images/common/arr_right_wt.png);}
 
 /*싱품 리스트 - 공통 스타일, 1단, 4단, 5단*/
 .goods-box {
@@ -175,11 +175,11 @@ body.main .list__goods li {margin-bottom: 0;}
 @media screen and (max-width: 1800px) {
 	.collection-slider .slick-prev {
 		left: 14px;
-		background-image: url(/pc/resource/images/common/arr_left_bk_line.png);
+		background-image: url(../pc/resource/images/common/arr_left_bk_line.png);
 	}
 	.collection-slider .slick-next {
 		right: 14px;
-		background-image: url(/pc/resource/images/common/arr_right_bk_line.png);
+		background-image: url(../pc/resource/images/common/arr_right_bk_line.png);
 	}
 }
 
@@ -273,11 +273,11 @@ body.main .list__goods li {margin-bottom: 0;}
 @media screen and (max-width: 1800px) {
 	.share-slider .slick-prev {
 		left: 6px;
-		background-image: url(/pc/resource/images/common/arr_left_bk_line.png);
+		background-image: url(../pc/resource/images/common/arr_left_bk_line.png);
 	}
 	.share-slider .slick-next {
 		right: 6px;
-		background-image: url(/pc/resource/images/common/arr_right_bk_line.png);
+		background-image: url(../pc/resource/images/common/arr_right_bk_line.png);
 	}
 }
 
@@ -532,12 +532,12 @@ body.main .list__goods li {margin-bottom: 0;}
 }
 .info-box__goods .thumb-slider .slick-prev {
 	top: -25px;
-	background-image: url(/pc/resource/images/common/arr_top_bk_14x10.png);
+	background-image: url(../pc/resource/images/common/arr_top_bk_14x10.png);
 }
 .info-box__goods .thumb-slider .slick-next {
 	top: auto;
 	bottom: -25px;
-	background-image: url(/pc/resource/images/common/arr_bot_bk_14x10.png);
+	background-image: url(../pc/resource/images/common/arr_bot_bk_14x10.png);
 }
 
 .info-box__goods .photo-slider {
@@ -760,8 +760,8 @@ body.main .list__goods li {margin-bottom: 0;}
 	border: 1px solid rgb(34,34,34);
 	box-sizing: border-box;
 }
-.choice-box__goods .btn__num.btn__num--minus {background-image: url(/pc/resource/images/common/ico_minus_bk.png);}
-.choice-box__goods .btn__num.btn__num--plus {background-image: url(/pc/resource/images/common/ico_plus_bk.png);}
+.choice-box__goods .btn__num.btn__num--minus {background-image: url(../pc/resource/images/common/ico_minus_bk.png);}
+.choice-box__goods .btn__num.btn__num--plus {background-image: url(../pc/resource/images/common/ico_plus_bk.png);}
 .choice-box__goods .input__num {
 	width: 150px;
 	height: 40px;
@@ -803,7 +803,7 @@ body.main .list__goods li {margin-bottom: 0;}
 	height: 50px;
 	margin-left: 0;
 	text-indent: -9999px;
-	background: url(/pc/resource/images/common/ico_wish_bk.png) no-repeat center center;
+	background: url(../pc/resource/images/common/ico_wish_bk.png) no-repeat center center;
 	border: 1px solid rgb(213,213,213);
 }
 .btn-box__goods a.btn__cart {
