@@ -38,7 +38,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/member/pop_id_check.asp',
+				url: '../../member/pop_id_check.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'idCheckPop', {

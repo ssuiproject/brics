@@ -1,25 +1,25 @@
-<!-- #include virtual = "/mo/layout/initialize.asp" -->
-<!-- #include virtual = "/mo/layout/doc_title.asp" -->
-<!-- #include virtual = "/mo/layout/html_header.asp" -->
+<!-- #include virtual = "../../layout/initialize.asp" -->
+<!-- #include virtual = "../../layout/doc_title.asp" -->
+<!-- #include virtual = "../../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="/mo/resource/js/pages/view.js"></script>
+	<script src="../../resource/js/pages/view.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/mo/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
 			<!--상품 슬라이드, 줌 버튼-->
 			<section class="photo-box__view">
 				<div id="goodsViewSlider" class="goods-slider__view">
-					<div><img src="/mo/resource/images/_temp/img_goods_view01.jpg" alt="" /></div>
-					<div><img src="/mo/resource/images/_temp/img_goods_view02.jpg" alt="" /></div>
-					<div><img src="/mo/resource/images/_temp/img_goods_view01.jpg" alt="" /></div>
-					<div><img src="/mo/resource/images/_temp/img_goods_view02.jpg" alt="" /></div>
+					<div><img src="../../resource/images/_temp/img_goods_view01.jpg" alt="" /></div>
+					<div><img src="../../resource/images/_temp/img_goods_view02.jpg" alt="" /></div>
+					<div><img src="../../resource/images/_temp/img_goods_view01.jpg" alt="" /></div>
+					<div><img src="../../resource/images/_temp/img_goods_view02.jpg" alt="" /></div>
 				</div>
 
 				<button type="button" class="btn__zoom">ZOOM BUTTON</button>
@@ -33,8 +33,8 @@
 				<button type="button" class="btn__close">CLOSE</button>
 
 				<ul class="list__zoom">
-					<li><img src="/mo/resource/images/_temp/img_goods_view01.jpg" alt="" /></li>
-					<li><img src="/mo/resource/images/_temp/img_goods_view02.jpg" alt="" /></li>
+					<li><img src="../../resource/images/_temp/img_goods_view01.jpg" alt="" /></li>
+					<li><img src="../../resource/images/_temp/img_goods_view02.jpg" alt="" /></li>
 				</ul>
 			</section>
 			<!--//줌 레이어-->
@@ -98,10 +98,10 @@
 						<dt>색상 선택</dt>
 						<dd>
 							<ul class="list__colorchip">
-								<li class="on"><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li><!--활성화시 클래스 on-->
-								<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
-								<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
-								<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+								<li class="on"><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li><!--활성화시 클래스 on-->
+								<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+								<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
+								<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
 							</ul>
 						</dd>
 					</dl>
@@ -128,7 +128,7 @@
 					<div class="con__goods" style="display: block;">
 						<!--editor-->
 						<div class="txt-box__deatil">
-							<img src="/mo/resource/images/_temp/img_temp_view01.jpg" alt="" /><br /><br />
+							<img src="../../resource/images/_temp/img_temp_view01.jpg" alt="" /><br /><br />
 
 							This new and elegant collection features the SRPP shell
 							(Self Reinforced PolyPropylene) a innovative high-tech
@@ -138,8 +138,8 @@
 							A sophisticated and functional carry-on trolley, the perfect
 							companion for every trip.<br />
 							
-							<img src="/mo/resource/images/_temp/img_goods_view01.jpg" alt="" />
-							<img src="/mo/resource/images/_temp/img_goods_view02.jpg" alt="" /><br />
+							<img src="../../resource/images/_temp/img_goods_view01.jpg" alt="" />
+							<img src="../../resource/images/_temp/img_goods_view02.jpg" alt="" /><br />
 
 							The Venezia Trolley 78 is a stylish and extremely practical
 							trolley. The trolley is made of high-quality polypropylene,
@@ -154,7 +154,7 @@
 							This trolley from the Italian brand Bric's is the ideal
 							companion during a world trip.<br />
 
-							<img src="/mo/resource/images/_temp/img_goods_view01.jpg" alt="" /><br /><br />
+							<img src="../../resource/images/_temp/img_goods_view01.jpg" alt="" /><br /><br />
 						</div>
 						<!--//editor-->
 
@@ -555,7 +555,7 @@
 				<div id="goodsLikeSlider" class="list__goods">
 					<div>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -570,7 +570,7 @@
 					</div>
 					<div>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -585,7 +585,7 @@
 					</div>
 					<div>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -600,7 +600,7 @@
 					</div>
 					<div>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -627,7 +627,7 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/mo/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

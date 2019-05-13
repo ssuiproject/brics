@@ -39,7 +39,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/order/pop_coupon.asp',
+				url: '../../order/pop_coupon.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'couponPop', {
@@ -70,7 +70,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/order/pop_cart_coupon.asp',
+				url: '../../order/pop_cart_coupon.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'cartCouponPop', {
@@ -103,7 +103,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/order/pop_addr.asp',
+				url: '../../order/pop_addr.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'addrPop', {
@@ -134,7 +134,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/order/pop_addr_plus.asp',
+				url: '../../order/pop_addr_plus.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'addrPlusPop', {

@@ -1,24 +1,24 @@
-<!-- #include virtual = "/mo/layout/initialize.asp" -->
-<!-- #include virtual = "/mo/layout/doc_title.asp" -->
-<!-- #include virtual = "/mo/layout/html_header.asp" -->
+<!-- #include virtual = "../../layout/initialize.asp" -->
+<!-- #include virtual = "../../layout/doc_title.asp" -->
+<!-- #include virtual = "../../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="/mo/resource/js/pages/order.js"></script>
+	<script src="../../resource/js/pages/order.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/mo/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
 			<div class="sub-step order">
 				<ul>
-					<li class="step1"><i><img src="/mo/resource/images/sub/ico_order_step.png" alt=""></i>장바구니</li>
-					<li class="step2 on"><i><img src="/mo/resource/images/sub/ico_order_step02_on.png" alt=""></i>배송정보</li>
-					<li class="step3"><i><img src="/mo/resource/images/sub/ico_order_step03.png" alt=""></i>결제하기</li>
-					<li class="step4"><i><img src="/mo/resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
+					<li class="step1"><i><img src="../../resource/images/sub/ico_order_step.png" alt=""></i>장바구니</li>
+					<li class="step2 on"><i><img src="../../resource/images/sub/ico_order_step02_on.png" alt=""></i>배송정보</li>
+					<li class="step3"><i><img src="../../resource/images/sub/ico_order_step03.png" alt=""></i>결제하기</li>
+					<li class="step4"><i><img src="../../resource/images/sub/ico_order_step04.png" alt=""></i>주문완료</li>
 				</ul>
 			</div>
 			<div class="sub__txt">
@@ -353,9 +353,9 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/mo/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../layout/doc_footer.asp" -->
 
-<!-- #include virtual = "/mo/layout/doc_fGnb.asp" -->
+<!-- #include virtual = "../../layout/doc_fGnb.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

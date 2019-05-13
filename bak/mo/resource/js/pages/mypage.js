@@ -38,7 +38,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '/mo/mypage/pop_mbr_info.asp',
+				url: '../../mypage/pop_mbr_info.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'mbrInfoPop', {

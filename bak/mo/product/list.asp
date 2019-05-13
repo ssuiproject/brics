@@ -1,19 +1,19 @@
-<!-- #include virtual = "/mo/layout/initialize.asp" -->
-<!-- #include virtual = "/mo/layout/doc_title.asp" -->
-<!-- #include virtual = "/mo/layout/html_header.asp" -->
+<!-- #include virtual = "../../layout/initialize.asp" -->
+<!-- #include virtual = "../../layout/doc_title.asp" -->
+<!-- #include virtual = "../../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="/mo/resource/js/pages/list.js"></script>
+	<script src="../../resource/js/pages/list.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "/mo/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
-<!-- #include virtual = "/mo/layout/doc_location.asp" -->			
+<!-- #include virtual = "../../layout/doc_location.asp" -->			
 
 
 			<!--상품 리스트 2단-->
@@ -153,16 +153,16 @@
 
 							<div class="check-area__filter">
 								<ul>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li><!--활성화시 클래스 on-->
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
-									<li><a href="#"><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li><!--활성화시 클래스 on-->
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></a></li>
 								</ul>
 							</div>
 						</div>
@@ -198,7 +198,7 @@
 				<ul class="list__goods _goods2"><!--갯수 클래스 _goods2-->
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -208,18 +208,18 @@
 									<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 								<div class="tag-box">
 									<p class="tag">2pcs sale</p>
@@ -230,7 +230,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -240,14 +240,14 @@
 									<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 								<div class="tag-box">
 									<p class="tag">2pcs sale</p>
@@ -258,7 +258,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley<br /> Riccione</p>
@@ -266,20 +266,20 @@
 									<p class="normal">370,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -287,18 +287,18 @@
 									<p class="normal">370,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -308,18 +308,18 @@
 									<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 								<div class="tag-box">
 									<p class="tag">2pcs sale</p>
@@ -330,7 +330,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -340,14 +340,14 @@
 									<p class="sale">1,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 								<div class="tag-box">
 									<p class="tag">2pcs sale</p>
@@ -358,7 +358,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley<br /> Riccione</p>
@@ -366,20 +366,20 @@
 									<p class="normal">370,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 							</div>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<div class="photo"><img src="/mo/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+							<div class="photo"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
 								<p class="name">Large Trolley Riccione</p>
@@ -387,11 +387,11 @@
 									<p class="normal">370,000<span class="won">&nbsp;&nbsp;원</span></p>
 								</div>
 								<ul class="list__colorchip">
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip01.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
-									<li><img src="/mo/resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip01.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
+									<li><img src="../../resource/images/_temp/img_colorchip02.jpg" alt=""></li>
 								</ul>
 							</div>
 						</a>
@@ -399,16 +399,16 @@
 				</ul>
 
 				<div class="loader">
-					<img src="/mo/resource/images/common/loader.gif" alt="" />
+					<img src="../../resource/images/common/loader.gif" alt="" />
 				</div>
 			</section>
 			<!--//상품 리스트 2단-->
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "/mo/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../layout/doc_footer.asp" -->
 
-<!-- #include virtual = "/mo/layout/doc_fGnb.asp" -->
+<!-- #include virtual = "../../layout/doc_fGnb.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>
