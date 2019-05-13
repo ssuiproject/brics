@@ -1,21 +1,21 @@
-<!-- #include virtual = "../../pc/layout/initialize.asp" -->
-<!-- #include virtual = "../../pc/layout/doc_title.asp" -->
-<!-- #include virtual = "../../pc/layout/html_header.asp" -->
+<!-- #include virtual = "../../layout/initialize.asp" -->
+<!-- #include virtual = "../../layout/doc_title.asp" -->
+<!-- #include virtual = "../../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../../pc/resource/js/lib/jquery.zoom.min.js"></script>
+	<script src="../../resource/js/lib/jquery.zoom.min.js"></script>
 
-	<script src="../../pc/resource/js/pages/view.js"></script>
+	<script src="../../resource/js/pages/view.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../../pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="contents">
-<!-- #include virtual = "../../pc/layout/doc_location.asp" -->	
+<!-- #include virtual = "../../layout/doc_location.asp" -->	
 			
 			<!--상품 기본정보-->
 			<section class="info-box__goods">
@@ -23,34 +23,34 @@
 				<div class="photo-box photo-box--left">
 					<div class="thumb-box">
 						<nav id="thumbSlider" class="thumb-slider">
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
-							<div><a href="javascript:void(0);"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></a></div>
+							<div><a href="javascript:void(0);"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></a></div>
 						</nav>
 					</div>
 
 					<div id="photoSlider" class="photo-slider">
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div><!--가로세로 : 650 보다 큰 이미지 넣어야 줌 사용 가능-->
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
-						<div class="photo__goods"><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div><!--가로세로 : 650 보다 큰 이미지 넣어야 줌 사용 가능-->
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></div>
+						<div class="photo__goods"><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></div>
 					</div>
 				</div>
 				<!--//이미지 영역-->
@@ -119,10 +119,10 @@
 							<dt>색상 선택</dt>
 							<dd>
 								<ul class="list__colorchip">
-									<li class="on"><a href="#"><img src="../../pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li><!--활성화시 클래스 on-->
-									<li><a href="#"><img src="../../pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
-									<li><a href="#"><img src="../../pc/resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
-									<li><a href="#"><img src="../../pc/resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+									<li class="on"><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li><!--활성화시 클래스 on-->
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip01.jpg" alt="" /></a></li>
+									<li><a href="#"><img src="../../resource/images/_temp/img_colorchip02.jpg" alt="" /></a></li>
 								</ul>
 							</dd>
 						</dl>
@@ -147,10 +147,10 @@
 					</div>
 
 					<div class="share-box__goods">
-						<a href="#"><img src="../../pc/resource/images/common/ico_facebook_circle.png" alt="페이스북 공유" /></a>
-						<a href="#"><img src="../../pc/resource/images/common/ico_twitter_circle.png" alt="트위터 공유" /></a>
-						<a href="#"><img src="../../pc/resource/images/common/ico_kakaostory_circle.png" alt="카카오스토리 공유" /></a>
-						<a href="#"><img src="../../pc/resource/images/common/ico_naverblog_circle.png" alt="네이버블로그 공유" /></a>
+						<a href="#"><img src="../../resource/images/common/ico_facebook_circle.png" alt="페이스북 공유" /></a>
+						<a href="#"><img src="../../resource/images/common/ico_twitter_circle.png" alt="트위터 공유" /></a>
+						<a href="#"><img src="../../resource/images/common/ico_kakaostory_circle.png" alt="카카오스토리 공유" /></a>
+						<a href="#"><img src="../../resource/images/common/ico_naverblog_circle.png" alt="네이버블로그 공유" /></a>
 					</div>
 					<!--//버튼 - 위시리스트, 장바구니, 바로구매, 공유-->
 				</div>
@@ -167,8 +167,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -185,8 +185,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -203,8 +203,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -221,8 +221,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
-								<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt="" /></div>
+								<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -239,8 +239,8 @@
 					<li>
 						<a href="#">
 							<div class="photo">
-								<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
-								<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
+								<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt="" /></div>
+								<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt="" /></div>
 							</div>
 							<div class="info">
 								<p class="category">RICCIONE</p>
@@ -286,11 +286,11 @@
 
 							<!--thumb-->
 							<ul>
-								<li><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
-								<li><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></li>
-								<li><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
-								<li><img src="../../pc/resource/images/_temp/img_view_goods02.jpg" alt="" /></li>
-								<li><img src="../../pc/resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
+								<li><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
+								<li><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></li>
+								<li><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
+								<li><img src="../../resource/images/_temp/img_view_goods02.jpg" alt="" /></li>
+								<li><img src="../../resource/images/_temp/img_view_goods01.jpg" alt="" /></li>
 							</ul>
 							<!--//thumb-->
 						</div>
@@ -778,8 +778,8 @@
 						<li>
 							<a href="#">
 								<div class="photo">
-									<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
-									<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
+									<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+									<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
 								</div>
 								<div class="info">
 									<p class="category">RICCIONE</p>
@@ -796,8 +796,8 @@
 						<li>
 							<a href="#">
 								<div class="photo">
-									<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods02.jpg" alt=""></div>
-									<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
+									<div class="front"><img src="../../resource/images/_temp/img_temp_goods02.jpg" alt=""></div>
+									<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
 								</div>
 								<div class="info">
 									<p class="category">RICCIONE</p>
@@ -814,8 +814,8 @@
 						<li>
 							<a href="#">
 								<div class="photo">
-									<div class="front"><img src="../../pc/resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
-									<div class="back"><img src="../../pc/resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
+									<div class="front"><img src="../../resource/images/_temp/img_temp_goods01.jpg" alt=""></div>
+									<div class="back"><img src="../../resource/images/_temp/img_temp_goods01_2.jpg" alt=""></div>
 								</div>
 								<div class="info">
 									<p class="category">RICCIONE</p>
@@ -839,7 +839,7 @@
 		</div>
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../../pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>

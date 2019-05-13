@@ -38,7 +38,7 @@
 	    var popup = function() {
 			ssq.ajax({
 				type: 'GET',
-				url: '../../pc/mypage/pop_mbr_info.asp',
+				url: '../../mypage/pop_mbr_info.asp',
 				dataType: 'html',
 				success: function(html) {
 					layer.source(html,'mbrInfoPop', {
@@ -69,7 +69,7 @@
 		
 		var clareCalendar = {
 			showOn: "button",
-			buttonImage: "../../pc/resource/images/btn/btn_calendar.gif",
+			buttonImage: "../../resource/images/btn/btn_calendar.gif",
 			buttonImageOnly: true,
 
 			monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],

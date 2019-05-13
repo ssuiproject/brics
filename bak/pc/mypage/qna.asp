@@ -1,15 +1,15 @@
-<!-- #include virtual = "../../pc/layout/initialize.asp" -->
-<!-- #include virtual = "../../pc/layout/doc_title.asp" -->
-<!-- #include virtual = "../../pc/layout/html_header.asp" -->
+<!-- #include virtual = "../../layout/initialize.asp" -->
+<!-- #include virtual = "../../layout/doc_title.asp" -->
+<!-- #include virtual = "../../layout/html_header.asp" -->
 
 	<!-- 개별 css, js -->
-	<script src="../../pc/resource/js/pages/toggle.js"></script>
+	<script src="../../resource/js/pages/toggle.js"></script>
 
 </head>
 <body class="">
 	<!-- start of :: wrap -->
 	<div id="wrap">
-<!-- #include virtual = "../../pc/layout/doc_header.asp" -->	
+<!-- #include virtual = "../../layout/doc_header.asp" -->	
 
 		<!-- start of :: contents -->
 		<div id="subContents">
@@ -46,7 +46,7 @@
 								<td>10</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -76,7 +76,7 @@
 								<td>9</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변 대기 중</td>						
@@ -106,7 +106,7 @@
 								<td>8</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변 대기 중</td>						
@@ -136,7 +136,7 @@
 								<td>7</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변 대기 중</td>						
@@ -166,7 +166,7 @@
 								<td>6</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변 대기 중</td>						
@@ -196,7 +196,7 @@
 								<td>5</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -226,7 +226,7 @@
 								<td>4</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -256,7 +256,7 @@
 								<td>3</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -286,7 +286,7 @@
 								<td>2</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -316,7 +316,7 @@
 								<td>1</td>
 								<td class="left">
 									<a href="" class="tit ellipsis">안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요안녕하세요^_^.환불문의드려요</a>
-									<i class="file"><img src="../../pc/resource/images/sub/ico_file.gif" alt="파일첨부"></i>
+									<i class="file"><img src="../../resource/images/sub/ico_file.gif" alt="파일첨부"></i>
 								</td>
 								<td>상품문의</td>
 								<td>답변완료</td>						
@@ -364,7 +364,7 @@
 
 		<!-- // end of :: contents -->
 	
-<!-- #include virtual = "../../pc/layout/doc_footer.asp" -->
+<!-- #include virtual = "../../layout/doc_footer.asp" -->
 	</div>
     <!-- // end of :: wrap -->    
 </body>
