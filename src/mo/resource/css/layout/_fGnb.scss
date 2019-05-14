@@ -1,0 +1,93 @@
+/*FOOTER GNB*/  
+.gnb__footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.gnb__footer--fix {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    z-index: 99;
+    &.gnb__footer--up {
+        bottom: 0px;
+    }
+}
+
+.gnb__footer ul {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    li {
+        float: left;
+        a {
+            height: 50px;
+            display: block;
+            padding: 30px 0 0;
+            font-family: 'Spoqa Han Sans';
+            font-weight: 400;
+            font-size: 1.1rem;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+        }
+        .gnb__category {
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_hambuger.png);
+            background-position: center 11px;
+            background-size: 17px;
+        }
+        .gnb__delivery {
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_delivery.png);
+            background-position: center 11px;
+            background-size: 17px;
+        }
+        .gnb__mypage {
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_mypage.png);
+            background-position: center 9px;
+            background-size: 17px;
+        }
+        .gnb__cart {
+            position: relative;
+            top: 0;
+            left: 0;
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_cart.png);
+            background-position: center 8px;
+            background-size: 17px;
+        }
+        span.num {
+            width: 15px;
+            height: 15px;
+            display: block;
+            position: absolute;
+            top: 8px;
+            left: calc(50% + 2px);
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: rgb(255, 255, 255);
+            line-height: 15px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            border-radius: 50%;
+        }
+    }
+}
+
+body.gnb--open .gnb__footer {
+    z-index: -99;
+}
+
+/*4단, 5단*/
+.gnb__footer ul {
+    &._gnb4 li {
+        width: 25%;
+    }
+    &._gnb5 li {
+        width: 20%;
+    }
+}
+  
+  

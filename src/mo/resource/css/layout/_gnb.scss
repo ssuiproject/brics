@@ -1,0 +1,203 @@
+/*GNB*/  
+body.gnb--open {
+    overflow-y: hidden;
+}
+
+.bg-wrap {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gnb {
+    width: calc(100% - 60px);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    -wekbit-transform: translateX(calc(-100% - 60px));
+    -ms-transform: translateX(calc(-100% - 60px));
+    transform: translateX(calc(-100% - 60px));
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+body {
+    &.gnb--open {
+        .gnb {
+            -wekbit-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        .bg-wrap {
+            display: block;
+        }
+    }
+    &.filter--open .bg-wrap {
+        display: block;
+    }
+}
+
+.gnb {
+    .inner {
+        height: 100%;
+        overflow-y: auto;
+    }
+    .user {
+        width: 100%;
+        height: 51px;
+        padding: 0 20px;
+        font-family: 'Spoqa Han Sans';
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: rgb(51, 51, 51);
+        line-height: 51px;
+        background-color: rgb(238, 238, 238);
+        border-bottom: 1px solid rgb(221, 221, 221);
+        box-sizing: border-box;
+    }
+    .btn__close {
+        width: 60px;
+        height: 51px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -60px;
+        z-index: 99;
+        text-indent: -9999px;
+        background: url(http://brics.styleship.com/mo/resource/images/common/ico_x_wt.png) no-repeat center center;
+        background-size: 18px;
+    }
+    .util-box {
+        width: 100%;
+        height: 42px;
+        border-bottom: 1px solid rgb(221, 221, 221);
+        box-sizing: border-box;
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        a {
+            width: 25%;
+            float: left;
+            font-family: 'Spoqa Han Sans';
+            font-weight: 300;
+            font-size: 1.1rem;
+            color: rgb(51, 51, 51);
+            text-align: center;
+            line-height: 42px;
+        }
+    }
+    .inner {
+        > ul {
+            margin-bottom: 50px;
+            > li {
+                height: 50px;
+                border-bottom: 1px solid rgb(204, 204, 204);
+                box-sizing: border-box;
+            }
+        }
+        ul li {
+            a {
+                display: block;
+                padding: 0 20px;
+                font-weight: 400;
+                font-size: 1.3rem;
+                color: rgb(0, 0, 0);
+                line-height: 50px;
+            }
+            &:not(.no-depth) a {
+                background-repeat: no-repeat;
+                background-position: calc(100% - 20px) center;
+                background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_right_bk_16x25.png);
+                background-size: 8px;
+            }
+        }
+    }
+}
+
+.depth2-box {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    -wekbit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gnb .inner {
+    > ul > li.depth2--open .depth2-box {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    ul li a.tit__depth {
+        display: block;
+        padding: 0 20px 0 40px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+        line-height: 50px;
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        background-color: rgb(238, 238, 238);
+        background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_left_bk_16x25.png);
+        background-size: 8px;
+    }
+}
+
+.depth3-box {
+    background-color: rgb(245, 245, 245);
+}
+
+.gnb .inner ul li .depth2-box {
+    > ul {
+        margin-bottom: 50px;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    ul li {
+        border-top: 1px solid rgb(204, 204, 204);
+        &:first-child {
+            border-top: 0;
+        }
+        a {
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_bot_bk_16x25.png);
+            background-size: 13px;
+        }
+        .depth3-box {
+            display: none;
+            border-top: 1px solid rgb(204, 204, 204);
+            a {
+                font-weight: 300;
+                background-image: none;
+            }
+        }
+        &.depth3--open {
+            .depth3-box {
+                display: block;
+            }
+            > a {
+                background-image: url(http://brics.styleship.com/mo/resource/images/common/arr_top_bk_16x25.png);
+            }
+        }
+        &.no-depth a {
+            background-image: none;
+        }
+    }
+}

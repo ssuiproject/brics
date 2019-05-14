@@ -1,0 +1,68 @@
+ /*FOOTER*/  
+ #footer {
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    .inner {
+        padding: 23px 20px 25px;
+    }
+}
+
+
+
+#footer {
+    .share-box {
+        margin: 14px 0 0;
+        font-size: 0;
+        text-align: center;
+        .share {
+            width: 22px;
+            height: 21px;
+            display: inline-block;
+            text-indent: -9999px;
+            vertical-align: top;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .share__facebook {
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_facebook.png);
+            background-size: 9px;
+        }
+        .share__instagram {
+            margin-left: 14px;
+            background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_instagram.png);
+            background-size: 22px;
+        }
+    }
+    .address {
+        padding: 20px 0;
+    }
+    .addr__starluxe {
+        margin: 20px 0 0;
+        padding-top: 25px;
+        border-top: 1px dashed rgb(222, 222, 222);
+    }
+    .address p {
+        font-family: 'Spoqa Han Sans';
+        font-weight: 100;
+        font-size: 1.1rem;
+        color: rgb(34, 34, 34);
+        line-height: 2.0rem;
+    }
+    .txt {
+        font-family: 'Spoqa Han Sans';
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: rgb(34, 34, 34);
+        line-height: 2.0rem;
+        &.escrow {
+        background: url(http://brics.styleship.com/mo/resource/images/common/mark_escrow.png) no-repeat right center;
+        background-size: 37px;
+        }
+    }
+    .copyright {
+        font-family: 'Spoqa Han Sans';
+        font-weight: 100;
+        font-size: 1.2rem;
+        color: rgb(34, 34, 34);
+    }
+}

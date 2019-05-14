@@ -1,0 +1,26 @@
+/*FOOTER - SITEMAP*/
+.list__sitemap {
+    width: 280px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+    li {
+        display: inline-block;
+        margin-right: 12px;
+        font-size: 12px;
+        vertical-align: top;
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+        a {
+            display: block;
+            font-family: 'Spoqa Han Sans';
+            font-weight: 100;
+            font-size: 1.2rem;
+            line-height: 2.4rem;
+        }
+        strong {
+            font-weight: 700;
+        }
+    }
+}

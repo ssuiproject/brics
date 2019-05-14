@@ -1,0 +1,56 @@
+/*header - search box*/  
+.search-box {
+    width: 100%;
+    height: 51px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+body.search-box--open .search-box {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+.search-box {
+    .inner {
+        padding: 0 20px;
+    }
+    form {
+        font-size: 0;
+    }
+    button {
+        width: 19px;
+        height: 51px;
+        display: inline-block;
+        margin-left: 10px;
+        text-indent: -9999px;
+        vertical-align: top;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .btn__search--close {
+        background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_x_bk.png);
+    }
+    .input__search {
+        width: calc(100% - 58px);
+        height: 19px;
+        display: inline-block;
+        margin: 16px 0 0;
+        font-family: 'Spoqa Han Sans';
+        font-weight: 400;
+        font-size: 1.0rem;
+        color: rgb(119, 119, 119);
+        vertical-align: top;
+        outline: 0;
+    }
+}

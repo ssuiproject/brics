@@ -1,0 +1,25 @@
+/*LOCATION*/  
+.location {
+    margin: 6px 0 0;
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    a {
+        float: left;
+        padding-left: 9px;
+        margin-left: 3px;
+        font-weight: 300;
+        font-size: 1.1rem;
+        color: rgb(113, 113, 113);
+        letter-spacing: -0.5px;
+        background: url(http://brics.styleship.com/mo/resource/images/common/arr_right_gr.png) no-repeat 0 center;
+        background-size: 6px;
+        &:first-child {
+            padding-left: 0;
+            margin-left: 0;
+            background: none;
+        }
+    }
+}

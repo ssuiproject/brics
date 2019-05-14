@@ -1,0 +1,86 @@
+/*WRAP*/
+#wrap {
+    padding: 0 0 40px;
+}
+
+/*HEADER - GNB 버튼, 로고, 검색버튼*/
+#header {
+    width: 100%;
+    height: 51px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 1px dashed rgb(222, 222, 222);
+    box-sizing: border-box;
+}
+
+body.main #header {
+    border-bottom: 0;
+}
+
+#header > button {
+    width: 60px;
+    height: 51px;
+    position: absolute;
+    top: 0;
+    text-indent: -9999px;
+}
+
+.btn__search {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(http://brics.styleship.com/mo/resource/images/common/ico_serach.png);
+    background-size: 19px;
+}
+
+.btn__search--right {
+    right: 0;
+}
+
+.btn__menu {
+    left: 0;
+    span {
+        width: 19px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        left: 50%;
+        background-color: rgb(17, 17, 17);
+        &.top {
+            top: 20px;
+            -webkit-transform: translate(-50%, 0%);
+            -ms-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+        }
+        &.mid {
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        &.bot {
+            top: calc(100% - 19px);
+            -webkit-transform: translate(-50%, -100%);
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
+        }
+    }
+}
+
+#header .logo {
+    width: 70px;
+    height: 51px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    a {
+        height: 51px;
+        display: block;
+        text-indent: -9999px;
+        background: url(http://brics.styleship.com/mo/resource/images/common/logo_brics.png) no-repeat center center;
+        background-size: 70px;
+    }
+}
